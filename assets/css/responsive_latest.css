@@ -1,0 +1,1624 @@
+@media (min-width:1200px) and (max-width:1575px) {
+    .offline_banner .wrapper_girl_image .content h3 {
+        font-size: 45px
+    }
+    .offline_banner .wrapper_girl_image .content {
+        padding-top: 160px;
+        max-width: 385px
+    }
+}
+
+@media (min-width:991px) and (max-width:1199px) {
+    .kota_coaching_text .custom_container {
+        transform: translateY(-39%)
+    }
+    .Motion_banner .banner_image img {
+        width: 100%
+    }
+    .offline_banner .wrapper_girl_image .content h3,
+    .offline_banner .wrapper_girl_image .content h5 {
+        font-size: 25px
+    }
+    .offline_banner .wrapper_girl_image .content {
+        padding-top: 100px;
+        max-width: 250px
+    }
+}
+
+@media (max-width:1199px) {
+    video.testimonials_slider_vdo {
+        width: 95%
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .Motion_banner.offline_banner .custom_container {
+        flex-direction: row
+    }
+    .Motion_banner .banner_image img {
+        width: 100%
+    }
+}
+
+@media (min-width:992px) and (max-width:1118px) {
+    .header_menu ul.level-1>li {
+        margin: 0 1px
+    }
+}
+
+@media (max-width:992px) {
+    .scholar_test_box_one {
+        width: 24%
+    }
+    .planner-img3 {
+        width: 50%
+    }
+}
+
+@media (max-width:996px) {
+    .batches_dates h4 {
+        font-size: 1.8rem;
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 1rem !important
+    }
+    .batches_dates button {
+        margin-bottom: 1rem;
+        width: auto
+    }
+    .batches_dates button:nth-child(last) {
+        margin-bottom: 0
+    }
+    .batch-btn {
+        gap: .5rem
+    }
+}
+
+@media (min-width:992px) {
+    .mobile_button {
+        display: none
+    }
+    .header_menu ul.level-1>li:hover>ul,
+    .header_menu ul.level-2>li:hover>ul {
+        visibility: visible;
+        opacity: 1
+    }
+    .common_banner.answer .banner_content h1 span {
+        padding-right: 29px
+    }
+}
+
+@media (max-width:1300px) {
+    .course_content_inner .tabber_wrap ul li a {
+        border: 1px solid #efa91b;
+        border-radius: 12px
+    }
+    .course_content_inner .tabber_wrap ul li {
+        margin-bottom: 5px
+    }
+    .course_payment .coming_batches .batch_card {
+        margin: 10px 0;
+        max-width: 450px;
+        text-align: center
+    }
+    .course_payment .coming_batches {
+        justify-content: center
+    }
+    .course_section .course_content .coming_batches h4 {
+        text-align: center
+    }
+}
+
+@media (max-width:1200px) {
+    .course_cards_wrap .course_cards {
+        max-width: 100%
+    }
+    .Motion_banner h2.perfect_mix {
+        font-size: 3rem
+    }
+    .course_cards_wrap {
+        justify-content: center
+    }
+    .course_payment .course_packeges_wrap {
+        flex-wrap: wrap
+    }
+    .course_payment .course_packeges {
+        max-width: 450px;
+        margin: 10px auto
+    }
+    .slider_image_testimonial_course_detail_page::after {
+        width: 100%;
+        max-width: 81px
+    }
+    .slider_image_testimonial_course_detail_page::before {
+        max-width: 90px;
+        width: 100%
+    }
+    .we-arrow-right-coursedetails {
+        right: 40%
+    }
+    .we-arrow-left-coursedetails {
+        left: 40%
+    }
+    .course_content_inner .tabber_wrap ul {
+        justify-content: flex-start
+    }
+    .course_section .course_content .best_classroom .content h4,
+    .stop_solution .bg_image .content h4 {
+        font-size: 16px
+    }
+    .course_section .course_content .best_classroom .content h4 span {
+        font-size: 18px
+    }
+    .best_classroom .content,
+    .stop_solution .bg_image .content {
+        width: 60%
+    }
+}
+
+@media (max-width:991px) {
+    .Apply_Now,
+    .Fee_payment_registration_content .submit_registration_page,
+    .common_banner.answer .banner_right_image {
+        text-align: center
+    }
+    .Motion_banner .banner_image img {
+        padding-left: 0;
+        height: auto
+    }
+    .Motion_banner.home_banner {
+        padding-bottom: 0 !important
+    }
+    .Super_Enthuse_Batch .custom_container .banner_form,
+    .Super_Nurture_Batch .custom_container .banner_form {
+        margin-left: 0
+    }
+    .introduction_page {
+        overflow: hidden
+    }
+    .introduction_page img {
+        position: relative;
+        top: 2rem
+    }
+    section.Motion_banner.common_banner {
+        padding-top: 0
+    }
+    .common_banner .banner_content.about {
+        align-items: center
+    }
+    .course_banner .custom_container .banner_form {
+        margin-left: auto
+    }
+    .course_content_inner .tabber_wrap ul li a {
+        min-width: 176px
+    }
+    .course_content_inner .tabber_wrap ul li {
+        margin-right: 40px
+    }
+    .course_content_inner .nav-link.courses {
+        padding: 5px 10px
+    }
+    .packege_head_u {
+        margin-bottom: .5rem
+    }
+    .Super_Enthuse_Batch,
+    .course_banner,
+    .jee_dropper_batch {
+        padding: 0 0 30px;
+        background-image: none
+    }
+    .course_banner .custom_container .banner_content,
+    .jee_dropper_batch .custom_container {
+        max-width: 100%
+    }
+    .inner_tab_data_career {
+        padding: 50px 5px 0
+    }
+    .Super_Enthuse_Batch .custom_container,
+    .Super_Nurture_Batch .custom_container,
+    .course_banner .custom_container {
+        max-width: 100%;
+        width: 100%
+    }
+    .Super_Enthuse_Batch .form-col2,
+    .Super_Nurture_Batch .form-col2,
+    .form-col1,
+    .motion_collaborators .wrapper-franchise,
+    .motion_collaborators .wrapper_associate,
+    .motion_collaborators .wrapper_school {
+        padding: 0
+    }
+    .form-col1 img,
+    .header_menu ul.level-1 .level-2>li .fa-angle-right,
+    .header_menu ul.level-1 li a .fa-angle-right {
+        display: inline-block
+    }
+    .Super_Nurture_Batch .form-col2 {
+        background-color: #fff;
+        position: relative;
+        top: -.5rem
+    }
+    .Super_Nurture_Batch {
+        background-image: none;
+        padding: 0 0 30px;
+        background-color: #fff
+    }
+    .motion_collaborators .center_down-arrow,
+    .motion_collaborators .left_down_arrow,
+    .motion_collaborators .right_down_arrow,
+    .page_title,
+    .schoolar_student_image figure,
+    figure.back_png img,
+    i.fa-solid.fa-caret-down.arrow_courses {
+        display: none
+    }
+    .banner_form .form_wrap {
+        left: 0;
+        border: 1px solid #efa902;
+        margin-top: 30px;
+        margin-right: auto
+    }
+    .online_offline_banner {
+        padding: 44px 0 4px
+    }
+    .best_box_one.box_four,
+    .best_box_one.box_three,
+    .online_offline_banner .banner_form .form_wrap {
+        margin-top: 0
+    }
+    .schoolar_student_img {
+        display: block;
+        min-width: 100%
+    }
+    .schoolar_banner_offline_online .custom_container,
+    .schoolar_banner_offline_online .custom_container .button_Apply {
+        position: static
+    }
+    .Apply_Now {
+        margin: 1rem 0
+    }
+    .slider_collaborators .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: #fff
+    }
+    .slider_collaborators .slick-dots li button:before {
+        color: #fff
+    }
+    .row.what-we-do-slider .slick-list {
+        padding-top: 0;
+        padding-bottom: 23px
+    }
+    .Motion_banner .custom_container,
+    .course_section .course_content,
+    .header_menu ul.level-1 .level-2>li,
+    .study_centers_inner_div,
+    .why_best {
+        flex-direction: column
+    }
+    .wrapper_footer {
+        background: url(../images/footer1.png) #290404
+    }
+    .Motion_banner,
+    .course_banner,
+    .form_banner {
+        background-size: initial
+    }
+    p.scholarship_testimonial_text {
+        width: 90%
+    }
+    p.announce_desc {
+        width: 95%
+    }
+    .why_best_left {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 40px
+    }
+    .best_class_img figure,
+    .jee_batch_img,
+    .quotes_walt,
+    .selection_ratio,
+    .study_centers_table,
+    .text_performs,
+    .why_best_right {
+        width: 100%
+    }
+    .study_centers_contact_us {
+        width: 50%;
+        margin: 30px auto 0
+    }
+    .h_font.why_best_header,
+    img.img-fluid.pillar_imgg {
+        width: auto
+    }
+    .best_box_one.one_only {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    .best_box_one {
+        margin-bottom: 20px;
+        width: 48%
+    }
+    .common_banner .custom_container {
+        flex-direction: column-reverse
+    }
+    .common_banner .banner_right_image img {
+        display: flex
+    }
+    .banner_content.about {
+        margin-top: 40px;
+        max-width: 100%
+    }
+    span.right-arrow.we-arrow-right.latest_ann {
+        right: -33px
+    }
+    span.left_arrow.we-arrow-left.latest_ann {
+        right: 25px
+    }
+    .button,
+    .button_Apply,
+    .button_submit,
+    .course_content_inner .button,
+    .slider_content_start_preparation a {
+        font-size: 15px
+    }
+    .we-arrow-lefting {
+        left: 35%
+    }
+    .we-arrow-lefts {
+        left: 34%
+    }
+    .course_banner {
+        background-position: initial
+    }
+    .course_content_inner .best_planner .button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px
+    }
+    .curious_image_mobile {
+        display: block
+    }
+    .NTSE {
+        width: 100% !important;
+        margin-right: 0
+    }
+    .best_planner.planner_bg_area {
+        width: 100%;
+        height: 417px !important
+    }
+    .mobile_open .modal-backdrop,
+    body.mobile_open:after {
+        height: 100%;
+        width: 100%
+    }
+    .common_banner .banner_content,
+    .home_banner .banner_content {
+        text-align: center;
+        max-width: 100%
+    }
+    body.mobile_open:after {
+        content: "";
+        background: #000;
+        top: 0;
+        position: fixed;
+        opacity: .5;
+        transition: .4s ease-in-out;
+        z-index: 1
+    }
+    .varification_modal .modal-dialog {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .tab_list {
+        width: 100%;
+        max-width: 30%;
+        margin: 0 10px
+    }
+    .h_font {
+        font-size: 30px
+    }
+    .group_1599 {
+        width: 100%;
+        min-height: unset;
+        max-height: unset
+    }
+    .limit_26 {
+        left: 3%;
+        bottom: 3%;
+        transform: translate(-3%, -3%);
+        line-height: 1;
+        font-size: 15px
+    }
+    .scholarship_test {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    .key_ans_banner .banner_content h3 {
+        font-size: 30px;
+        margin-bottom: 10px
+    }
+    .key_ans_banner .banner_content p {
+        font-size: 18px
+    }
+    .answer_key .content .filter_result {
+        padding: 20px
+    }
+    .answer_key .filter_result .tabber ul .nav-item a {
+        padding: 9px 10px
+    }
+    .answer_key .content {
+        padding-top: 55px
+    }
+    .answer_key .filter_result .tabber {
+        top: -63px
+    }
+    .answer_key .content .filter_bey {
+        max-width: 220px
+    }
+    .answer_key .content .filter_bey .nav-link {
+        padding: 10px 15px
+    }
+    .download_content table tbody tr td,
+    .download_content table thead tr th {
+        padding: 10px
+    }
+    .best_class_img {
+        position: relative;
+        top: -16%
+    }
+    .wrapper_girl_image img {
+        min-width: auto;
+        max-width: 100% !important
+    }
+    .unique-combination h2 {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .course_content aside.aside {
+        max-width: 100%;
+        height: auto;
+        top: 0;
+        z-index: 99;
+        position: static;
+        display: none
+    }
+    .course_content_inner {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px
+    }
+    .jee_result_card p {
+        padding-bottom: 35px
+    }
+    .course_list .tab_list {
+        max-width: 46%
+    }
+    .course_list {
+        flex-wrap: wrap;
+        justify-content: flex-start !important
+    }
+    .course_content_inner .Scholarship .Scholarship_image,
+    .course_content_inner .best_planner,
+    .limitless_image .limit_img,
+    .motion_enroll .image {
+        height: auto
+    }
+    .course_banner .banner_content h1 {
+        font-size: 44px
+    }
+    .selcetion_ratio_image .stock_market_img {
+        height: auto;
+        min-height: unset;
+        max-height: unset
+    }
+    .motion_learning-banner .free_access {
+        max-height: unset;
+        min-height: unset;
+        height: auto
+    }
+    .home_banner .banner_content {
+        margin-top: 15px
+    }
+    .home_banner .banner_image {
+        max-width: 100%;
+        padding-left: 0
+    }
+    .common_banner.answer .banner_content h1 span {
+        padding-right: 29px
+    }
+    .common_banner .banner_right_image img {
+        max-width: 500px;
+        margin: 0 auto
+    }
+    section.Motion_banner.common_banner.answer {
+        padding-bottom: 20px
+    }
+    .common_banner .banner_content h1 {
+        font-size: 51px
+    }
+}
+
+@media (max-width:767px) {
+    .answer_key .content,
+    .bottom_info>.row,
+    .registration_table_wrapper {
+        flex-direction: column
+    }
+    .online_offline_banner {
+        padding-top: 0 !important
+    }
+    .news-media .banner_right_image {
+        position: relative;
+        top: 22px
+    }
+    .form_banner .custom_container,
+    .key_ans_banner .banner_content {
+        position: static;
+        transform: unset
+    }
+    .button {
+        float: none
+    }
+    .button_wrap {
+        text-align: center
+    }
+    .wrapper_girl_image img {
+        min-width: auto;
+        max-width: 100%
+    }
+    .planner-sec p {
+        font-size: 1.2rem
+    }
+    .partner_div_one {
+        width: 64%;
+        border: 1px solid #f3f1f1;
+        margin: 0 auto 20px
+    }
+    .registration_table_body_innr_row {
+        padding: 10px 30px
+    }
+    .iframe_styling,
+    .key_ans_banner .banner_content,
+    .nesting_tables_div,
+    .registration_table_body.exam_pattern {
+        width: 100%
+    }
+    .colum_two_inner.exam_pattern,
+    .colum_two_inner.paper_div_outer.exam_pattern {
+        flex-direction: row
+    }
+    .answer_key_anchor_div,
+    p.registration_colum_text.bordered_text.zero_margin_bottom.text_align_cls {
+        width: 49%
+    }
+    button.btn.btn-default.scrolling_btns_inner {
+        margin-bottom: 10px;
+        width: 49%
+    }
+    .course_banner .custom_container,
+    .motion_row_footer,
+    .scrolling_btns_wrapper,
+    .tab-content .tab-pane {
+        flex-wrap: wrap
+    }
+    a.sample_paper_link {
+        width: 49%;
+        margin-bottom: 15px
+    }
+    .partner_divs {
+        background-image: none;
+        height: auto;
+        padding: 0
+    }
+    .we-arrow-lefts {
+        left: 40%
+    }
+    .november_batch-20222.online_offline_jee_new figure img {
+        width: 100%;
+        margin-bottom: 40px
+    }
+    .wrapper_footer {
+        padding-top: 7px
+    }
+    .motion_row_footer .motion_about_us_footer_text {
+        max-width: 49%;
+        width: 100%;
+        margin-right: 0;
+        padding: 10px;
+        text-align: left
+    }
+    .motion_row_footer .font-style li {
+        margin-bottom: 4px
+    }
+    .footer-address {
+        text-align: center !important
+    }
+    .wrapper_footer .custom_container {
+        max-width: 100% !important
+    }
+    .answer_key .content .filter_bey,
+    .course_banner .custom_container .banner_form,
+    .course_list .tab_list,
+    .motion_row_footer .motion_about_us_footer_text:last-child,
+    .tab_list {
+        max-width: 100%
+    }
+    .bottom_info>.row {
+        align-items: center;
+        text-align: center
+    }
+    .tab_list {
+        margin: 15px 0
+    }
+    .jee_batch_img {
+        min-height: unset;
+        max-height: unset
+    }
+    .performance_booster {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .wrapper_our_acheiver {
+        padding-bottom: 0
+    }
+    .tab_listing {
+        padding: 10px
+    }
+    .draggable {
+        padding-bottom: 45px
+    }
+    .user_details_text_dummy {
+        padding: 20px
+    }
+    .filter_result .tabber_download .download_content table {
+        min-width: 450px;
+        overflow-y: auto;
+        font-size: 16px
+    }
+    .answer_key .content .filter_result {
+        margin: 70px 0 0
+    }
+    .form_banner,
+    .key_ans_banner {
+        padding: 20px 0
+    }
+    .answerkey_changes {
+        border: 1px solid #ab9999
+    }
+    .form .form_field_wrap {
+        flex-direction: column;
+        margin-bottom: 15px
+    }
+    .form .form_field_wrap .form_field:not(:last-child) {
+        margin: 0 0 15px
+    }
+    .form_banner .custom_container .banner_content h1 {
+        font-size: 40px
+    }
+    .Fee_payment_registration_content .tabber ul .nav-item a {
+        transform: none;
+        min-width: unset;
+        padding: 10px;
+        border-radius: 16px
+    }
+    .form_border {
+        padding: 15px 10px
+    }
+    .Fee_payment_registration_content .nav-pills {
+        margin-bottom: 15px;
+        gap: 1rem
+    }
+    .Fee_payment_registration_content .tabber ul .nav-item {
+        overflow: unset;
+        margin: 10px 0
+    }
+    .Fee_payment_registration_content .tabber ul .nav-item a.active {
+        transform: unset
+    }
+    .card_content {
+        max-width: 400px
+    }
+    .best_selection_card {
+        flex-direction: column;
+        align-items: center
+    }
+    .wrapper_start_your_journey {
+        padding: 40px 0;
+        min-height: 350px;
+        position: relative;
+        top: 8rem;
+        margin-top: -7rem
+    }
+    .page_title h3 {
+        font-size: 30px;
+        word-break: break-word
+    }
+    .kota_coaching_text .custom_container {
+        flex-direction: column;
+        transform: translateY(5%);
+        top: 0;
+        position: relative;
+        transform: unset;
+        z-index: 2
+    }
+    .kota_coaching_text .custom_container .banner_form {
+        margin-top: 70px
+    }
+    .offline_banner .wrapper_girl_image .content {
+        padding-top: 45px;
+        max-width: 255px
+    }
+    .offline_banner .wrapper_girl_image figure {
+        height: auto;
+        z-index: 1;
+        position: absolute
+    }
+    .Motion_banner.offline_banner {
+        padding-bottom: 110px
+    }
+    .offline_banner .wrapper_girl_image .content h5 {
+        font-size: 25px
+    }
+    .offline_banner .wrapper_girl_image .content h3 {
+        font-size: 35px;
+        margin: 5px 0
+    }
+    .card_body_ul {
+        padding-left: 20px
+    }
+    .card_body_ul li::before {
+        left: 12px
+    }
+    .course_banner .banner_content h1 {
+        margin-bottom: 0
+    }
+    .Motion_banner h2.perfect_mix {
+        font-size: 32px;
+        margin-bottom: 20px
+    }
+    .Motion_banner .perfect_mix_span {
+        font-size: 19px
+    }
+    .Motion_banner.home_banner {
+        padding: 35px 0 50px
+    }
+    .what-we-do-slider .main-img .group_1599 {
+        height: auto
+    }
+    .wrapper_best_class>.row {
+        flex-direction: column-reverse
+    }
+    .best_class_img {
+        margin-bottom: 20px
+    }
+}
+
+@media (max-width:768px) {
+    .content1 h1 span,
+    .content1 h2 span,
+    .course_section .course_content .best_classroom .content1 h1,
+    .course_section .course_content .best_classroom .content1 h2 {
+        font-size: 25px;
+        text-align: center
+    }
+    .spacing {
+        padding-top: 10px
+    }
+    .pillars_divs {
+        margin-top: 15px
+    }
+    img.img-fluid.pillar_imgg {
+        margin-bottom: 15px
+    }
+    .pillar_name_desig {
+        padding: 0 25px 20px;
+        text-align: center
+    }
+    .why_best {
+        margin: 2rem 0
+    }
+    button.btn.btn-default.scrolling_btns_inner {
+        width: auto;
+        border: none;
+        padding: 0;
+        margin-bottom: 5px;
+        margin-right: 5px
+    }
+    .motion_collaborators,
+    .scrolling_btns_wrapper {
+        margin-top: 0
+    }
+    .course_content_inner .tabber_wrap .nav {
+        padding: 5px;
+        border-radius: 7px;
+        border: .5px solid #d2d2d2
+    }
+    .top_links {
+        display: block;
+        text-align: center
+    }
+    .course_content_inner .tabber_wrap ul li a.active {
+        background-color: transparent;
+        color: #00f
+    }
+    .course_content_inner .tabber_wrap ul li {
+        width: auto
+    }
+    .course_content_inner .tabber_wrap ul li a {
+        min-width: auto;
+        border: none;
+        padding: 0 !important
+    }
+    .course_payment .course_packeges .packege_head h5 {
+        padding: 0
+    }
+    .course_payment .coming_batches .batch_card h3 {
+        font-size: 1.4rem
+    }
+    .limitless_image,
+    .stock_market_img {
+        display: none
+    }
+    .stock_market_img_mobile {
+        display: block;
+        width: 100%
+    }
+    .latest {
+        padding-bottom: 0
+    }
+    .Motion_banner .button_wrap a {
+        float: none
+    }
+    .Motion_banner .banner_image img,
+    .limitless_image_mobile img {
+        width: 100%
+    }
+    p.registration_colum_text.bordered_text.full_wid_class.box_height_cls {
+        padding-left: 20px
+    }
+    .best_classroom figure img {
+        height: 220px
+    }
+    .kota_coaching_text .custom_container {
+        padding-top: 85px
+    }
+    .row.testimonial_slider_row {
+        margin-right: 0 !important
+    }
+    .limitless_image_mobile {
+        display: block
+    }
+    .button_Apply_home_mobile {
+        border-radius: 11px;
+        color: #fff;
+        width: auto;
+        background-color: #b50303;
+        padding: .5rem 1.5rem;
+        outline: 0;
+        border: none;
+        min-width: 90px
+    }
+}
+
+@media (max-width:575px) {
+    .fee-under-section {
+        padding: 0 1rem
+    }
+    .fee-card-col {
+        padding: 1rem 0
+    }
+    .best_four_boxes,
+    .colum_two_inner,
+    .course_clas_flex,
+    .fee-table,
+    .form .form_field_wrap,
+    .growth_divs,
+    .pillars_divs,
+    .wrapper_carrer_inner_div {
+        flex-direction: column
+    }
+    .fee-table .fee-div {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        display: flex
+    }
+    .fee-table .fee-div .fee-heading {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 1rem .5rem
+    }
+    .fee-table .fee-div .fee-txt {
+        flex: 0 0 50%;
+        max-width: 50%;
+        font-size: 1.5rem;
+        padding: 1rem .5rem
+    }
+    .Fee_payment_registration_content .tabber ul .nav-item,
+    .emi-text {
+        font-size: 12px
+    }
+    .batch_d {
+        margin-top: 0 !important
+    }
+    .batch-col2,
+    .batches_dates,
+    .course_list .tab_list,
+    .wrapper_testimonial {
+        padding: 0
+    }
+    .batches_dates button {
+        font-size: 12px;
+        padding: .3rem .2rem;
+        border-radius: 4px
+    }
+    .batch-btn {
+        gap: .2rem;
+        justify-content: space-evenly
+    }
+    .my-float {
+        width: 60px
+    }
+    html {
+        font-size: 14px
+    }
+    .exam-sec-heading2 {
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 1.3
+    }
+    .mob_motion_learning-banner {
+        display: block !important
+    }
+    .motion_enroll,
+    .motion_learning-banner,
+    img.img-fluid.benefits_mid {
+        display: none
+    }
+    .fee-card p {
+        font-size: 1.1rem
+    }
+    .fee-text {
+        font-size: 1.8rem !important
+    }
+    .motion_enroll_mobile,
+    .scholarship_content br {
+        display: block
+    }
+    .pillar_div_one:first-child,
+    button.btn.btn-default.connect_btn {
+        margin-top: 0
+    }
+    img.img-fluid.get_dir_img {
+        width: 30px
+    }
+    p.pillar_below_text_header.p_optimum.pillars_below_text.contact_us {
+        margin: 8px 0 !important
+    }
+    .academic_job_left,
+    .academic_job_loc_experience,
+    .best_box_one,
+    .captcha_input_and_label,
+    .colum_two_flex_div,
+    .growth_div_one,
+    .nesting_table_header,
+    .p_optimum.pillars_below_text.section_exam_below,
+    .partner_div_one,
+    .pillar_div_one,
+    .registration_colum_text.bordered_text,
+    .scholarship_testimonial_left,
+    .study_centers_contact_us,
+    input.form-control.input_carrers_search,
+    p.registration_colum_text.clum_two_eligibility,
+    p.scholarship_testimonial_text {
+        width: 100%
+    }
+    .regis_headers_and_text {
+        margin-top: 10px
+    }
+    .policy_texts,
+    .registration_table_body p.registration_colum_text.bordered_text {
+        margin-bottom: 10px
+    }
+    .policy_texts.without_bullet {
+        margin-top: -10px
+    }
+    a.policy_texts.anchor {
+        margin-left: 0;
+        font-size: 14px
+    }
+    .below_div_answer_key {
+        margin: 10px 0
+    }
+    .answer_key_anchor_div {
+        margin-bottom: 3px
+    }
+    .abt_jee_main {
+        margin: 1.2rem 0
+    }
+    .registration_table_body_innr_row {
+        padding: 6px
+    }
+    .registration_body_colum_one,
+    .registration_body_colum_two,
+    p.registration_table_head_text,
+    p.registration_table_head_text.text_one {
+        width: 50%
+    }
+    .exam_pattern p.registration_colum_text.bordered_text,
+    .stop_solution ul {
+        margin-bottom: 0
+    }
+    .course_content_inner .tabber_wrap ul li {
+        margin-right: 15px
+    }
+    .wrapper_one_stop {
+        margin-top: 5rem
+    }
+    .best_class_img {
+        position: relative;
+        top: -50%;
+        margin-bottom: -5rem
+    }
+    .planner-sec .button {
+        font-size: 10px !important;
+        padding: 10px;
+        min-width: 65px
+    }
+    .planner-sec .button img {
+        margin: 0 6px 0 0 !important;
+        max-width: 10px
+    }
+    .sec_latest {
+        display: flex
+    }
+    .announcement-btn,
+    .news-btn {
+        margin: .3rem;
+        width: 50%;
+        font-size: .7rem;
+        padding: .5rem 1rem
+    }
+    span.left_arrow.we-arrow-left.latest_ann,
+    span.right-arrow.we-arrow-right.latest_ann {
+        bottom: -25px
+    }
+    .Super_Enthuse_Batch .custom_container .banner_form,
+    .Super_Nurture_Batch .custom_container .banner_form {
+        margin-left: 0
+    }
+    .scholars_courses .nav-pills .class_name {
+        font-size: 6px;
+        top: 49%
+    }
+    .free_access img {
+        margin-top: 25px
+    }
+    .we-arrow-lefts,
+    .we-arrow-rights {
+        bottom: 0
+    }
+    .we-arrow-right-jee_result {
+        right: 0;
+        top: -105px
+    }
+    .we-arrow-left-jee_result {
+        right: 55px;
+        top: -105px
+    }
+    p.policy_texts.eligibility_bullet_points {
+        word-break: break-word
+    }
+    .form_field {
+        margin-bottom: 15px !important
+    }
+    .colum_two_inner.paper_div_outer {
+        flex-direction: row;
+        margin-left: 0
+    }
+    p.registration_colum_text.bordered_text.full_wid_class.box_height_cls {
+        height: auto;
+        padding-top: 28px !important
+    }
+    .padding_one_cls {
+        padding-top: 28px !important
+    }
+    .box2_height_cls {
+        height: auto !important
+    }
+    .registration_table_body_innr_row.eligibility_row {
+        padding: 25px 10px
+    }
+    .text_adjustment_cls {
+        padding: 28px 20px !important
+    }
+    .media_full_width {
+        width: 100% !important
+    }
+    .registration_table_head {
+        padding: 25px 30px
+    }
+    .course_cards p,
+    .course_list .tab_listing .course_text,
+    .jee_result_card h3,
+    .slider_content_start_preparation,
+    p.h_font.pillars_text.abt_jee_main_header {
+        text-align: center
+    }
+    p.registration_colum_text {
+        width: auto;
+        margin-left: 5px;
+        margin-bottom: 10px
+    }
+    a.sample_paper_link {
+        width: 47%;
+        margin: 0 auto 15px;
+        padding: 15px 5px;
+        font-size: 13px
+    }
+    .text_align_cls {
+        padding-left: 15px !important
+    }
+    .academic_job_right {
+        margin-top: 30px
+    }
+    video.testimonials_slider_vdo {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px
+    }
+    .scholar_test_box_one {
+        width: 48%
+    }
+    .imp_announce_div_one {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    p.should_most_text {
+        width: 85%
+    }
+    .should_most_wrapper {
+        padding: 105px 0 50px;
+        background-size: cover
+    }
+    .anchor_remove,
+    .download_content table tbody tr td button {
+        padding: 5px 10px
+    }
+    .should_most_div_one {
+        width: 100%;
+        margin-bottom: 90px
+    }
+    img.img-fluid.image_card_one {
+        width: 80%;
+        margin: 0 auto;
+        display: flex
+    }
+    .growth_div_one {
+        margin-bottom: 30px
+    }
+    .pillar_div_one {
+        margin-top: 1.5rem
+    }
+    .course_list .tab_listing .jee_batch_img,
+    .motion_learning-banner .free_access,
+    .november_batch-20222.online_offline_jee_new figure img {
+        height: auto
+    }
+    .nav.nav-pills.home_pills,
+    .nav.nav-pills.on_off {
+        flex-direction: row
+    }
+    .nav.nav-pills.home_pills .styling,
+    .nav.nav-pills.on_off .styling {
+        margin: 10px 2px;
+        font-size: 13px
+    }
+    .november_batch-2022 {
+        margin-bottom: 20px
+    }
+    .best_classroom figure img,
+    .stop_solution .bg_image figure img {
+        height: 180px
+    }
+    .Motion_banner .banner_image img {
+        height: auto;
+        width: 100%
+    }
+    .anchor_remove {
+        width: 100%;
+        text-align: center
+    }
+    .scholarship_content {
+        padding: 0 10px
+    }
+    .NTSE {
+        margin: 10px 0;
+        width: 100% !important
+    }
+    .we-arrow-righting,
+    .we-arrow-rights {
+        right: 38%
+    }
+    .tab-content .tab-pane {
+        width: 100%;
+        overflow-y: auto
+    }
+    .answer_key .filter_result .tabber ul,
+    .course_section .course_content .inner_content p,
+    .filter_result .tabber_download .download_content table,
+    .p_optimum,
+    .p_optimum1,
+    .stop_solution_accordion ul.list_style li {
+        font-size: 16px
+    }
+    .answer_key .filter_result .tabber {
+        position: static;
+        padding-bottom: 15px
+    }
+    .answer_key .filter_result .tabber ul .nav-item a {
+        margin: 5px 0
+    }
+    .answer_key .content .filter_result {
+        margin: 35px 0 0
+    }
+    .best_selection_ratio,
+    .curious_to_know,
+    .custom_design,
+    .our_scholars_learned,
+    .schoolar_content_card,
+    .wrapper_best_selection,
+    .wrapper_start_journey_best_class,
+    .wrapper_target_examination {
+        padding: 20px 0
+    }
+    .card-body.custom_card,
+    .cards_offline {
+        padding-right: 0
+    }
+    .course_cards_wrap .course_cards {
+        padding: 10px;
+        flex-direction: column
+    }
+    .course_section .course_content .inner_content {
+        padding: 20px 10px 0
+    }
+    .testimonial_jee_combine_course_detail {
+        padding-top: 0
+    }
+    .content1,
+    .course_packeges h4,
+    .course_section .course_content .inner_content span {
+        margin: 0
+    }
+    .background_styling-testimonial_course_detail_page {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 1rem
+    }
+    .jee_result_card p,
+    .page_title {
+        padding-bottom: 0
+    }
+    .course_section .course_content .inner_content h4,
+    .course_section .course_content .inner_content h4 span {
+        font-size: 1.2rem
+    }
+    .stop_solution .bg_image h4,
+    .stop_solution .bg_image h4 span {
+        font-size: 1rem !important;
+        margin: 0 !important
+    }
+    .course_section .course_content h4.inner_heading {
+        font-size: 1.7rem !important;
+        text-align: center
+    }
+    .batches_dates h4 {
+        font-size: 1.2rem !important
+    }
+    .card-link h3,
+    .lappy_content li h3,
+    .stop_solution_accordion .card-link h3,
+    .walt_p1 {
+        font-size: 18px
+    }
+    .offline_banner .banner_form .form_wrap h3 {
+        padding: 15px;
+        font-size: 14px;
+        margin: 0
+    }
+    .we-arrow-left-coursedetails {
+        left: 30%
+    }
+    .we-arrow-right-coursedetails {
+        right: 30%
+    }
+    .common_banner .banner_content h1 {
+        font-size: 35px
+    }
+    .offline_banner .wrapper_girl_image .content {
+        padding-top: 21px;
+        max-width: 210px
+    }
+    .offline_banner .wrapper_girl_image .content h5 {
+        font-size: 21px;
+        line-height: 1.2
+    }
+    .offline_banner .wrapper_girl_image .content h3 {
+        font-size: 22px;
+        margin: 0
+    }
+    .kota_coaching_text .custom_container {
+        padding-top: 65px
+    }
+    .Motion_banner.offline_banner {
+        padding-bottom: 0;
+        padding-top: 10px
+    }
+    .form .form_field .input {
+        min-height: 50px
+    }
+    .card_inner h5 {
+        padding: .2rem 2rem;
+        color: #b50303;
+        background-color: transparent;
+        font-size: 1.5rem
+    }
+    .card_inner strong {
+        font-size: 2.8rem;
+        margin-bottom: 10px
+    }
+    .card_inner {
+        padding: 15px
+    }
+    .wrapper_start_your_journey {
+        padding: 25px 0;
+        min-height: 250px
+    }
+    .best_class_heading h3,
+    .one_stop_heading h3 {
+        font-size: 20px;
+        text-align: center
+    }
+    .best_class_heading {
+        padding-bottom: 5px;
+        margin-top: 6rem
+    }
+    .draggable,
+    .lappy_content li {
+        padding-bottom: 10px
+    }
+    .lappy_img {
+        padding-right: 5px
+    }
+    .one_stop_heading {
+        padding-bottom: 5px
+    }
+    .background_styling-testimonial {
+        padding: 0 15px
+    }
+    .user_details_text_dummy {
+        padding: 10px 20
+    }
+    .makes_text h2,
+    .testimonial_text_head h3,
+    .unique-combination h2 {
+        font-size: 20px
+    }
+    .unique-combination {
+        padding-bottom: 15px
+    }
+    .quotes_walt {
+        padding: 15px 10px
+    }
+    .button_submit {
+        padding: 13px 35px;
+        min-width: 180px;
+        min-height: 50px
+    }
+    .Motion_banner h2.perfect_mix {
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center
+    }
+    .Motion_banner .perfect_mix_span {
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: center
+    }
+    .h_font {
+        font-size: 22px
+    }
+    .selection_ratio {
+        padding: 15px 0
+    }
+    .limitless_image {
+        padding-top: 20px
+    }
+    .limitless_image .limit_img {
+        height: 220px
+    }
+    .performance_text {
+        padding-bottom: 30px
+    }
+    .what-we-do-slider .main-img .vendor,
+    .wrapper_ntse_hover {
+        padding: 10px
+    }
+    .right_arrow {
+        right: -3px
+    }
+    .ul_what_makes {
+        padding-left: 24px;
+        padding-top: 10px
+    }
+    .ul_what_makes li::before {
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+        background-repeat: no-repeat
+    }
+    .ul_what_makes li {
+        padding: 5px 0;
+        font-size: 15px
+    }
+    .vendor-session {
+        padding: 10px;
+        margin: 5px
+    }
+    .iframe_styling {
+        height: 190px
+    }
+    .Inspire_Our_Latest_Sessions {
+        padding: 20px 0 0
+    }
+    .remove_access_paddings {
+        padding-top: 30px
+    }
+    .slider_image_testimonial {
+        min-height: 115px
+    }
+    .wrappermotion h2 {
+        font-size: 22px;
+        margin-bottom: 15px
+    }
+    .wrappermotion p {
+        font-size: 16px;
+        font-weight: 400
+    }
+    .franchisecontent {
+        padding: 30px 0
+    }
+    .effective_study {
+        padding: 10px;
+        text-align: center
+    }
+    .announcement-sec .next,
+    .announcement-sec .prev,
+    .news-sec .next,
+    .news-sec .prev {
+        right: 50%
+    }
+}
+
+@media (max-width:500px) {
+    .kota_coaching_text .custom_container {
+        padding-top: 32px
+    }
+}
+
+@media (max-width:450px) {
+    .content1 h1 span,
+    .content1 h2 span,
+    .course_section .course_content .best_classroom .content1 h1,
+    .course_section .course_content .best_classroom .content1 h2 {
+        font-size: 20px;
+        text-align: center
+    }
+    .card-linkh3 {
+        font-size: 1.1rem
+    }
+    .card-linkp {
+        font-size: 1rem
+    }
+    .wrapper_start_your_journey {
+        top: 6rem;
+        margin-top: -5rem
+    }
+    .answer_key_anchor_div,
+    .scholar_test_box_one {
+        width: 50%
+    }
+    button.btn.btn-default.scrolling_btns_inner {
+        width: auto
+    }
+    .academic_job_loc_experience,
+    .scho_benefits_flex,
+    .scho_benefits_flex.fourth,
+    .scho_benefits_flex.second {
+        flex-direction: column
+    }
+    .job_loc_experience {
+        margin-bottom: 15px
+    }
+    p.registration_table_head_text {
+        font-size: 16px
+    }
+    img.img-fluid.scho_benefits_icon {
+        margin-bottom: 25px
+    }
+    .imp_announce_div {
+        margin-top: -80px
+    }
+}
+
+@media (max-width:430px) {
+    .kota_coaching_text .custom_container {
+        padding-top: 8px
+    }
+    .form_banner .custom_container .banner_content h1 {
+        font-size: 32px
+    }
+    span.right-arrow.we-arrow-right.latest_ann {
+        right: -51px
+    }
+    span.left_arrow.we-arrow-left.latest_ann {
+        right: 10px
+    }
+    .course_section .course_content .best_classroom .content h4,
+    .stop_solution .bg_image .content h4 {
+        font-size: 13px;
+        margin: 0
+    }
+    .course_section .course_content .best_classroom .content h4 span {
+        font-size: 15px
+    }
+    .best_classroom figure img,
+    .stop_solution .bg_image figure img {
+        height: 140px
+    }
+}
+
+@media (max-width:420px) {
+    .jee_result_card p {
+        text-align: center
+    }
+}
+
+@media (max-width:360px) {
+    .course_content_inner .tabber_wrap ul li a {
+        font-size: .8rem
+    }
+    .course_content_inner .tabber_wrap ul {
+        justify-content: space-between
+    }
+    button.btn.btn-default.scrolling_btns_inner {
+        margin-right: 10px
+    }
+    .scrolling_btns_wrapper {
+        justify-content: center
+    }
+    .banner_form .form_wrap {
+        max-width: 300px
+    }
+    .wrapper_start_your_journey {
+        top: 5rem;
+        margin-top: -5rem
+    }
+    .kota_coaching_text .custom_container .banner_form {
+        margin-top: 15px
+    }
+    .offline_banner .wrapper_girl_image .content {
+        padding-top: 10px
+    }
+}
+
+@media (max-width:250px) {
+    .announcement-btn,
+    .news-btn {
+        width: 50%;
+        font-size: .6rem;
+        padding: .5rem
+    }
+}

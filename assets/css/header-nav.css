@@ -1,0 +1,596 @@
+ @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/*
+.navbar_logo img,
+nav {
+    width: 100%
+}
+
+nav .navbar .links li .arrow,
+nav .navbar .nav-links {
+    height: 100%;
+    line-height: 70px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif
+}
+
+.logo {
+    width: 75px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+ul {
+    padding-left: 0
+}
+
+nav {
+    top: 5;
+    left: 0;
+    height: 70px;
+    background: #fff;
+    z-index: 99
+}
+
+nav .navbar {
+    height: 100%;
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    padding: 0;
+    gap: 50px;
+}
+
+.navbar .logo a {
+    font-size: 30px;
+    color: #eb0000;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    top: -7px
+}
+
+nav .navbar .links {
+    display: flex
+}
+
+nav .navbar .links li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 9px;
+    gap: 5px;
+    cursor: pointer
+}
+
+nav .navbar .links li a {
+    height: auto;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.links li:hover .nav-arrow,
+.links li:hover .nav-arrow1,
+.links li:hover .nav-arrow2,
+.links li:hover .nav-arrow3,
+.links li:hover .nav-arrow4,
+.links li:hover .nav-arrow5,
+.links li:hover .nav-arrow6 {
+    transform: rotate(180deg)
+}
+
+nav .navbar .links li .arrow {
+    width: 22px;
+    text-align: center;
+    display: inline-block;
+    color: #000;
+    transition: .3s
+}
+
+nav .navbar .links li .sub-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 240px;
+    line-height: 40px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    border-radius: 0 0 4px 4px;
+    display: none;
+    z-index: 2;
+    padding: 5px
+}
+
+.links li .sub-menu .more:hover .more-sub-menu,
+.links li .sub-menu .more:hover .more-sub-menu1,
+.links li .sub-menu .more:hover .more-sub-menu2,
+.links li .sub-menu .more:hover .more-sub-menu3,
+nav .navbar .links li:hover .nav-sub-menu,
+nav .navbar .links li:hover .nav-sub-menu1,
+nav .navbar .links li:hover .nav-sub-menu2,
+nav .navbar .links li:hover .nav-sub-menu3,
+nav .navbar .links li:hover .nav-sub-menu4,
+nav .navbar .links li:hover .nav-sub-menu5,
+nav .navbar .links li:hover .nav-sub-menu6 {
+    display: block
+}
+
+.navbar .links li .sub-menu li {
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    left: -2px
+}
+
+.nav-sub-menu6 {
+    left: -60px !important
+}
+
+.navbar .links li .sub-menu a {
+    color: #000;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    -ms-word-break: break-word;
+    word-break: break-word
+}
+
+.navbar .links li .sub-menu .more-arrow,
+.navbar .links li .sub-menu .more-arrow1,
+.navbar .links li .sub-menu .more-arrow2,
+.navbar .links li .sub-menu .more-arrow3 {
+    line-height: 40px
+}
+
+.navbar .links li .sub-menu .more-sub-menu,
+.navbar .links li .sub-menu .more-sub-menu1,
+.navbar .links li .sub-menu .more-sub-menu2 {
+    position: absolute;
+    top: 0;
+    left: 101%;
+    border-radius: 0 4px 4px;
+    z-index: 1;
+    display: none
+}
+
+.navbar .links li .sub-menu .more-sub-menu3 {
+    position: absolute;
+    top: 1px;
+    left: -105%;
+    border-radius: 0 4px 4px;
+    z-index: 1;
+    display: none
+}
+
+.navbar .bx-menu,
+.navbar .nav-links .sidebar-logo {
+    display: none
+}
+
+.navbar .links li .sub-menu li span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.navbar svg {
+    overflow: hidden;
+    vertical-align: middle;
+    background: #eb1e27;
+    padding: 4px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: none
+}
+
+.nav-sub-menu3 {
+    max-height: 320px;
+    overflow-y: auto;
+    scrollbar-width: thin;   
+    scrollbar-color: #910000 #f0f0f0;
+}
+
+@media (max-width:1200px) {
+    nav .navbar {
+        flex-wrap: inherit;
+        margin-left: -3rem;
+    }
+
+    nav .navbar .links li a {
+        font-size: 13px;
+    }
+
+    .logo {
+        flex: none;
+    }
+}
+
+@media (max-width:1024px) {
+    nav .navbar {
+        gap: 0;
+        margin-left: 0;
+    }
+
+    nav .navbar .links li a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:991px) {
+    nav .navbar {
+        margin-left: -8rem;
+    }
+}
+
+@media (max-width:920px) {
+
+    nav .navbar {
+        max-width: 100%;
+        padding: 0;
+        justify-content: space-between
+    }
+
+    nav .navbar .logo a {
+        font-size: 27px;
+        left: .3rem
+    }
+
+    nav .navbar .links li {
+        padding: 5px 10px;
+        white-space: nowrap
+    }
+
+    nav .navbar .links li a {
+        font-size: 15px
+    }
+
+    .nav-sub-menu6 {
+        left: 0 !important
+    }
+
+    .more-sub-menu,
+    .more-sub-menu1,
+    .more-sub-menu2,
+    .more-sub-menu3,
+    .nav-sub-menu,
+    .nav-sub-menu1,
+    .nav-sub-menu2,
+    .nav-sub-menu3,
+    .nav-sub-menu4,
+    .nav-sub-menu5,
+    .nav-sub-menu6 {
+        border-left: 1px solid #cbcbcb;
+        margin-bottom: 1rem;
+        border-radius: 0 !important
+    }
+}
+
+@media (max-width:800px) {
+    .nav-sub-menu3 {
+        max-height: auto;
+        overflow-y:none;
+        scrollbar-width: none;   
+        scrollbar-color: none;
+    }
+    .navbar .links li .sub-menu a {
+        margin-bottom: 0;
+    }
+
+    nav .navbar {
+        gap: 0;
+        margin-left: 0;
+    }
+
+    .navbar .bx-menu,
+    .navbar svg {
+        display: block
+    }
+
+    nav .navbar .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        background: #fff;
+        line-height: 40px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        transition: .5s;
+        z-index: 1000
+    }
+
+   
+
+    .navbar .nav-links.show1 .links .nav-sub-menu,
+    .navbar .nav-links.show10 .links .more .more-sub-menu2,
+    .navbar .nav-links.show11 .links .more .more-sub-menu3,
+    .navbar .nav-links.show2 .links .nav-sub-menu1,
+    .navbar .nav-links.show3 .links .nav-sub-menu2,
+    .navbar .nav-links.show4 .links .nav-sub-menu3,
+    .navbar .nav-links.show5 .links .nav-sub-menu4,
+    .navbar .nav-links.show6 .links .nav-sub-menu5,
+    .navbar .nav-links.show7 .links .nav-sub-menu6,
+    .navbar .nav-links.show8 .links .more .more-sub-menu,
+    .navbar .nav-links.show9 .links .more .more-sub-menu1 {
+        width: 258px;
+        padding: 0 10px;
+        display: block;
+    }
+
+    .links li:hover .nav-arrow,
+    .links li:hover .nav-arrow1,
+    .links li:hover .nav-arrow2,
+    .links li:hover .nav-arrow3,
+    .links li:hover .nav-arrow4,
+    .links li:hover .nav-arrow5,
+    .links li:hover .nav-arrow6 {
+        transform: rotate(0deg);
+    }
+
+    .navbar .links li .sub-menu a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .navbar .nav-links .sidebar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fae3e3;
+        padding: 15px
+    }
+
+   
+    nav .navbar .links li::-webkit-scrollbar {
+        width: 2px;
+       
+    }
+
+    nav .navbar .links li::-webkit-scrollbar-track {
+        background: transparent;
+       
+    }
+
+    nav .navbar .links li::-webkit-scrollbar-thumb {
+        background: red;
+       
+        border-radius: 1px;
+        
+    }
+
+    .sidebar-logo .logo-name {
+        font-size: 25px;
+        color: #f02c00
+    }
+
+    .navbar .bx-menu,
+    .sidebar-logo i {
+        font-size: 25px;
+        color: #000
+    }
+
+    .sidebar-logo img {
+        width: 65%
+    }
+
+    nav .navbar .links {
+        display: block;
+        margin-top: 5px;
+        max-height: 100vh;
+    }
+
+    nav .navbar .links li .arrow {
+        line-height: 40px;
+        float: right;
+        height: auto;
+    }
+
+    .navbar .links li .sub-menu .more-arrow,
+    .navbar .links li .sub-menu .more-arrow1,
+    .navbar .links li .sub-menu .more-arrow2,
+    .navbar .links li .sub-menu .more-arrow3 {
+        line-height: 1;
+    }
+
+    nav .navbar .links li {
+        max-height: 30vh;
+        overflow-y: scroll;
+        
+        overflow-x: hidden;
+        
+        display: block;
+        border-bottom: 1px solid #cfcfcf
+    }
+
+    nav .navbar .links li .sub-menu {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        display: none
+    }
+
+    nav .navbar .links li .sub-menu li {
+        border-bottom: none;
+        padding: 0;
+        line-height: 5px;
+        margin-bottom: 1rem;
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu,
+    .navbar .links li .sub-menu .more-sub-menu1,
+    .navbar .links li .sub-menu .more-sub-menu2,
+    .navbar .links li .sub-menu .more-sub-menu3 {
+        position: relative;
+        left: 0;
+        display: none
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu li,
+    .navbar .links li .sub-menu .more-sub-menu1 li,
+    .navbar .links li .sub-menu .more-sub-menu2 li,
+    .navbar .links li .sub-menu .more-sub-menu3 li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .links li:hover .nav-arrow {
+        transform: rotate(0)
+    }
+
+    .navbar .links li .sub-menu .more span {
+        float: right
+    }
+
+    .links li .sub-menu .more:hover .more-sub-menu,
+    .links li .sub-menu .more:hover .more-sub-menu1,
+    .links li .sub-menu .more:hover .more-sub-menu2,
+    .links li .sub-menu .more:hover .more-sub-menu3,
+    nav .navbar .links li:hover .nav-sub-menu,
+    nav .navbar .links li:hover .nav-sub-menu1,
+    nav .navbar .links li:hover .nav-sub-menu2,
+    nav .navbar .links li:hover .nav-sub-menu3,
+    nav .navbar .links li:hover .nav-sub-menu4,
+    nav .navbar .links li:hover .nav-sub-menu5,
+    nav .navbar .links li:hover .nav-sub-menu6 {
+        display: none
+    }
+
+    .navbar .nav-links.show1 .links .nav-arrow,
+    .navbar .nav-links.show2 .links .nav-arrow1,
+    .navbar .nav-links.show3 .links .nav-arrow2,
+    .navbar .nav-links.show4 .links .nav-arrow3,
+    .navbar .nav-links.show5 .links .nav-arrow4,
+    .navbar .nav-links.show6 .links .nav-arrow5,
+    .navbar .nav-links.show7 .links .nav-arrow6 {
+        transform: rotate(180deg)
+    }
+
+    .navbar .nav-links.show10 .links .more-arrow2,
+    .navbar .nav-links.show11 .links .more-arrow3,
+    .navbar .nav-links.show8 .links .more-arrow,
+    .navbar .nav-links.show9 .links .more-arrow1 {
+        transform: rotate(90deg)
+    }
+
+    .navbar ol,
+    .navbar ul {
+        padding-left: 0
+    }
+
+    .navbar_logo img {
+        width: 85%
+    }
+}
+
+@media (max-width:370px) {
+    nav .navbar .nav-links {
+        max-width: 80%
+    }
+} */
+
+
+
+/* ===== NAVBAR MAIN ===== */
+.mynavbar {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* ===== INNER FLEX CONTAINER ===== */
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* ===== LOGO SECTION ===== */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* VERY IMPORTANT — CONTROL LOGO SIZE */
+.logo img {
+  height: 55px;   /* control size here */
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* remove default link styling */
+.navbar_logo {
+  display: inline-block;
+}
+
+/* ===== RIGHT SIDE LINKS ===== */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* your UL */
+.links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* link styling */
+.links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.links li a:hover {
+  color: #eb0000;
+}
+
+/* Hide sidebar logo by default */
+.sidebar-logo {
+  display: none;
+}
+
+/* ===== Responsive (Mobile) ===== */
+@media (max-width: 768px) {
+
+  .logo img {
+    height: 45px;
+  }
+
+  .links {
+    gap: 15px;
+  }
+
+}

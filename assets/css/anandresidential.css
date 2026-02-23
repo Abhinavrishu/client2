@@ -1,0 +1,1602 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap);
+
+.hostel,
+.target_jee {
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Lato, serif
+}
+
+.book_seat_session p,
+.for_class,
+.hostel,
+.regs-form h1,
+.section_2 .description,
+.target_jee,
+.thank-you {
+    font-family: Lato, serif
+}
+
+.icon,
+.wrapper {
+    cursor: pointer
+}
+
+.feature_1 p,
+.hostel,
+.section_2 .description,
+.section_2 h1,
+.section_3 h1,
+.section_4 h1,
+.section_5 h1,
+.thank-you {
+    letter-spacing: .01em
+}
+
+.titles h1,
+.titles h2 {
+    font-weight: 800;
+    line-height: 1.2
+}
+
+.titles h4,
+.titles p {
+    text-decoration: none
+}
+
+.regs-form,
+.regs-form-thankyou {
+    box-shadow: -2px -4px 20px rgba(36, 11, 55, .2), 2px 4px 20px rgba(36, 11, 55, .2);
+    box-sizing: border-box
+}
+
+.regs-form .form-group {
+    margin-bottom: 0.5rem;
+}
+
+.ps-timeline-sec,
+.ps-timeline-sec .container,
+.titles h4,
+.titles p,
+.unique {
+    position: relative
+}
+
+.icon,
+.wrapper {
+    position: absolute
+}
+
+.section_1 {
+    padding: 4rem 2rem;
+    background-image: url(https://cdn.motion.ac.in/ssp/img/dhruv-residential/banner-img.jpg);/*yha apna banner lagana h*/
+    background-size: cover;
+    background-position: top
+}
+
+.titles h1 {
+    color: #f6c212;
+    font-size: 80px;
+    padding: 0;
+    margin-bottom: 1.5rem
+}
+
+.for_class,
+.hostel,
+.regs-form h2 {
+    margin-bottom: 2rem
+}
+
+.hostel {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    color: #2a2b70
+}
+
+.for_class {
+    color: #fff;
+    font-size: 21.09px;
+    line-height: 25.31px;
+    font-weight: 600
+}
+
+.import_det {
+    border: 1px solid #999999;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.impo_not {
+    font-family: Lato;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #AD0000;
+}
+
+.import_det ul li {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #323232;
+    list-style: disc;
+}
+
+.import_det ul{
+    padding-left: 1rem;
+}
+
+.section_5 ul li,
+.target_jee,
+.terms-div ol li {
+    margin-bottom: 1.5rem
+}
+
+.target_jee {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    color: #ffbe19
+}
+
+.title_bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.regs-form h2 {
+    color: #000;
+    font-size: 24;
+    text-align: center;
+    font-weight: 600
+}
+
+.regs-form h1,
+.regs-form-thankyou .thank-you {
+    font-weight: 600;
+    text-align: center;
+    font-style: normal
+}
+
+.rupee,
+.section_2 h1,
+.thank-you {
+    font-weight: 700
+}
+
+.titles h4 {
+    font-size: 22px;
+    color: #fff
+}
+
+.book_seat,
+.our-aim {
+    padding: 2rem
+}
+
+.book_seat_session {
+    background-color: #940001;
+    padding: 1rem 2rem;
+    border-radius: 15px
+}
+
+.book_seat_session p {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px;
+    color: #fff
+}
+
+.book_now {
+    border: none;
+    background: #f6c212;
+    padding: .5rem 2rem;
+    font-size: 16px;
+    border-radius: 12px
+}
+
+.regs-form h1,
+.rupee {
+    font-size: 24px
+}
+
+.regs-form {
+    background: #fff;
+    border: .1px solid #989898;
+    border-radius: 8px;
+    padding: 1rem
+}
+
+.regs-form-thankyou {
+    background: #fff;
+    border: .1px solid #989898;
+    border-radius: 8px;
+    padding: 8rem 0
+}
+
+.provide_1,
+.unique {
+    box-shadow: 0 2px 12px rgba(104, 104, 104, .2)
+}
+
+.thank-you {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 36px;
+    color: #189a03;
+    background: #fff;
+    text-align: center
+}
+
+.regs-form-thankyou .thank-you {
+    font-family: Lato, serif;
+    font-size: 24px
+}
+
+.modal .details,
+.provide_1,
+.regs-form-thankyou p {
+    padding: 1rem
+}
+
+.regs-form h1 {
+    color: #2d2d2d
+}
+
+.section_2 h1,
+.section_3 h1 {
+    font-family: Quicksand
+}
+
+.form-control {
+    font-size: 14px !important
+}
+
+label {
+    font-size: 16px !important
+}
+
+.slick-slide {
+    height: auto !important
+}
+
+.btncolor {
+    background-color: #940001 !important;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    font-size: 18px !important;
+    color: #fff !important
+}
+
+.section_2 {
+    padding: 1rem;
+    background-image: url(https://cdn.motion.ac.in/ssp/img/dhruv-residential/hero-section.png);
+    background-size: cover;
+    background-position: top
+}
+
+.courses,
+.teaching,
+.teaching-content {
+    padding-left: 0 !important
+}
+
+.classs,
+.teaching-content {
+    padding-right: 0 !important
+}
+
+.section_2 h1 {
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #fff
+}
+
+.section_2 .description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #fff
+}
+
+.mobile-table-tab,
+.our-aim-1 {
+    display: none
+}
+
+.desktop-table,
+.our-aim-2 {
+    display: block
+}
+
+.feature_1 p:before,
+.video-main,
+.wrapper {
+    display: inline-block
+}
+
+.ps-timeline-sec {
+    background: #fff
+}
+
+.image-group {
+    width: 80%;
+    margin: auto
+}
+
+.img-group {
+    text-align: right
+}
+
+.teaching-img {
+    width: 100%
+}
+
+.cls,
+.cours {
+    margin-bottom: 0 !important
+}
+
+.mobile_book_now {
+    text-align: center;
+    margin-top: 0
+}
+
+.icon {
+    top: -9px;
+    left: -6px;
+    color: #fff
+}
+
+.play-icon-1,
+.play-icon-2,
+.play-icon-3 {
+    height: 72px;
+    width: 72px;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url(https://cdn.motion.ac.in/ssp/img/mop/play-16.png) no-repeat
+}
+
+.play-icon-1 {
+    left: 50%;
+    top: 46%
+}
+
+.play-icon-2 {
+    left: 53%;
+    top: 38%
+}
+
+.play-icon-3 {
+    left: 53%;
+    top: 34%
+}
+
+.wrapper {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.video-main {
+    position: relative
+}
+
+.wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s
+}
+
+.wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
+}
+
+.waves {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgb(0 0 0 / 69%);
+    opacity: 0;
+    border-radius: 100%;
+    right: -50px;
+    bottom: -50px;
+    z-index: -1;
+    -webkit-animation: 3s ease-in-out infinite waves;
+    animation: 3s ease-in-out infinite waves
+}
+
+@keyframes waves {
+    0% {
+        -webkit-transform: scale(.2, .2);
+        transform: scale(.2, .2);
+        opacity: 0
+    }
+
+    50% {
+        opacity: .9
+    }
+
+    100% {
+        -webkit-transform: scale(.9, .9);
+        transform: scale(.9, .9);
+        opacity: 0
+    }
+}
+
+.feature_1 {
+    border: 1px solid #f34a4a;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    min-height: 150px;
+}
+
+.feature_1 p {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 3rem
+}
+
+.feature_1 p:before {
+    background-image: url(https://cdn.motion.ac.in/ssp/img/vajra-img/feature_icon.png);
+    background-size: 32px 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    height: 32px;
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 20px
+}
+
+.youtube_video {
+    width: 100%;
+    height: 315px
+}
+
+@media screen and (max-width:1024px) {
+    .ps-timeline-sec .container ol:after {
+        right: 0 !important
+    }
+
+    .ps-timeline-sec .container ol:before {
+        left: 0 !important
+    }
+
+    .cls {
+        margin-bottom: 0 !important
+    }
+
+    .cours {
+        margin-bottom: 12px !important
+    }
+
+    .titles p:after {
+        width: 74% !important
+    }
+
+    .section_5 ul {
+        padding-left: 2rem !important
+    }
+
+    .provide_1 h3,
+    .unique p {
+        font-size: 12px !important
+    }
+
+    .provide_1 p {
+        font-size: 10px !important
+    }
+
+    .titles h1 {
+        font-size: 50px
+    }
+
+    .hostel,
+    .target_jee {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px
+    }
+
+    label {
+        display: none !important
+    }
+
+    .classs,
+    .courses {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 0;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important
+    }
+
+    .youtube_video {
+        height: 260px
+    }
+
+    .wrapper {
+        top: -65%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .youtube_video {
+        height: 190px
+    }
+
+    .wrapper {
+        top: -152%
+    }
+
+    .ps-timeline-sec .container ol:after,
+    .ps-timeline-sec .container ol:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background: #fff;
+        position: absolute
+    }
+
+    .about-para p,
+    .section_5 ul li {
+        font-size: 14px !important
+    }
+
+    .table-bordered td,
+    .table-bordered th {
+        font-size: 10px !important
+    }
+
+    .unique p {
+        font-size: 11px !important
+    }
+
+    .section_5 ul li {
+        line-height: 16px !important
+    }
+
+    .aim p {
+        line-height: 24px !important
+    }
+
+    .aim p q span {
+        font-size: 16px !important
+    }
+
+    .teaching {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%
+    }
+
+    .teaching-content {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%
+    }
+
+    .section_1 {
+        padding: 2rem 0
+    }
+
+    .regs-form {
+        padding: 1rem
+    }
+
+    .titles h2 {
+        font-size: 26px
+    }
+
+    .titles h1 {
+        font-size: 34px;
+        line-height: 1.3
+    }
+
+    .classs,
+    .courses {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%
+    }
+
+    .ps-timeline-sec {
+        position: relative;
+        background: 0 0 !important
+    }
+
+    .ps-timeline-sec .container ol:before {
+        top: 0 !important;
+        left: 36px !important
+    }
+
+    .ps-timeline-sec .container ol:after {
+        top: inherit !important;
+        left: 36px
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline {
+        margin: 50px 0 50px 25px !important;
+        border-left: 2px solid #fff;
+        padding-left: 0 !important;
+        padding-top: 25px !important;
+        border-top: 0 !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li {
+        height: 150px;
+        float: none !important;
+        width: inherit !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:nth-child(2) .img-handler-bot img {
+        width: 70px
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:last-child {
+        margin: 0;
+        bottom: 0 !important;
+        height: 100px
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:last-child .img-handler-bot {
+        bottom: 40px !important;
+        width: 40% !important;
+        margin-left: 25px !important;
+        margin-top: 0 !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:last-child .img-handler-bot img {
+        width: 100%
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top {
+        margin-bottom: 0 !important;
+        top: -10px;
+        bottom: 20px !important;
+        width: 70% !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span {
+        left: 17px !important;
+        top: 20px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after,
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:after {
+        content: none !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
+        content: "";
+        color: #fff;
+        width: 70px !important;
+        height: 2px !important;
+        background: #fff;
+        position: absolute;
+        top: 3px !important;
+        left: 10px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+        content: "";
+        color: #fff;
+        width: 200px !important;
+        height: 2px !important;
+        background: #fff;
+        position: absolute;
+        bottom: 3px !important;
+        left: 10px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+        position: absolute !important;
+        bottom: 150px !important;
+        width: 30% !important;
+        float: left !important;
+        margin-left: 35px !important;
+        margin-bottom: 0 !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-top img {
+        margin: 0 auto !important;
+        width: 80% !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+        position: absolute !important;
+        bottom: 115px !important;
+        width: 30% !important;
+        float: left !important;
+        margin-left: 35px !important;
+        margin-bottom: 0 !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li p {
+        text-align: left !important;
+        width: 100% !important;
+        margin: 0 auto !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+        width: 70% !important;
+        float: right !important;
+        right: 0;
+        top: 0;
+        bottom: -15px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+        width: 90% !important;
+        float: right !important;
+        right: 0;
+        top: -40px
+    }
+
+    .book_now {
+        font-size: 13px
+    }
+
+    .book_seat_session p,
+    .titles h4 {
+        font-size: 14px
+    }
+
+    .hostel,
+    .target_jee {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 38px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .youtube_video {
+        height: 215px
+    }
+
+    .wrapper {
+        top: 53%
+    }
+
+    .hostel,
+    .target_jee {
+        text-align: center;
+        font-size: 17px;
+        line-height: 27px;
+        display: block
+    }
+
+    .for_class,
+    .section_5 p,
+    .section_7 h5,
+    .section_7 p {
+        text-align: center
+    }
+
+    .about-para p,
+    .aim p {
+        text-align: center !important
+    }
+
+    .provide_1 p,
+    .section_5 p,
+    .section_9 .terms-div p,
+    .terms-div ol li,
+    .unique p {
+        font-size: 14px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li p,
+    .titles h4 {
+        font-size: 18px
+    }
+
+    .course-mob,
+    .titles h4 {
+        margin-bottom: 1rem
+    }
+
+    .feature_1 p {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+
+    .book_seat {
+        padding: 2rem 0
+    }
+
+    .book_seat_session p {
+        font-size: 15px;
+        padding-bottom: 1rem
+    }
+
+    .section_7,
+    .section_about {
+        padding: 2rem 0 !important
+    }
+
+    .about-para p {
+        font-size: 16px !important;
+        margin-top: 1rem
+    }
+
+    .para-about {
+        order: 2
+    }
+
+    .terms-div {
+        padding: 2rem 1rem !important
+    }
+
+    .section_8 p,
+    .section_9 .note {
+        font-size: 14px !important;
+        line-height: 24px !important
+    }
+
+    .section_9 .terms-div p {
+        line-height: 30px !important
+    }
+
+    .section_8 h2,
+    .section_9 h2 {
+        font-size: 26px !important
+    }
+
+    .section_9 .forstudent {
+        font-size: 18px !important
+    }
+
+    .main_sec1 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .campus {
+        order: 1;
+        margin-top: 2rem
+    }
+
+    .titles p:after {
+        width: 68% !important
+    }
+
+    .mobile-table-tab {
+        display: block
+    }
+
+    .desktop-table {
+        display: none !important
+    }
+
+    .section_3 h1 {
+        font-size: 25px !important
+    }
+
+    .section_4 h1,
+    .section_5 h1 {
+        font-size: 24px !important
+    }
+
+    .section_7 h1 {
+        font-size: 22px !important
+    }
+}
+
+.section_3 h1,
+.section_4 .academic-f {
+    margin-bottom: 2rem
+}
+
+@media screen and (max-width:500px) {
+    .titles p:after {
+        width: 65% !important
+    }
+
+    .ameniti p {
+        padding-top: 1rem;
+        font-weight: 600 !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+        width: 100px !important
+    }
+
+    .modal-content {
+        width: 24%
+    }
+
+    .unique {
+        margin-bottom: 20px !important
+    }
+
+    .aim,
+    .section_1,
+    .section_4,
+    .section_5,
+    .section_6 {
+        padding: 1rem !important
+    }
+
+    .our-aim {
+        padding: 0 !important
+    }
+
+    .aim p {
+        line-height: 20px !important
+    }
+
+    .aim p q span,
+    .section_2 .description {
+        font-size: 16px !important
+    }
+
+    .image-group {
+        width: 100% !important
+    }
+
+    .our-aim-1 {
+        display: block
+    }
+
+    .our-aim-2 {
+        display: none
+    }
+
+    .aim h1 {
+        font-size: 36px !important;
+        text-align: center
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top {
+        margin-bottom: 0 !important;
+        top: -20px !important;
+        bottom: -15px !important;
+        width: 70% !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
+        width: 30px !important
+    }
+
+    .section_3 {
+        padding: 1rem 1rem 2rem !important
+    }
+
+    .classs,
+    .courses {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%
+    }
+
+    .section_2 h1 {
+        font-size: 25px !important
+    }
+}
+
+.section_3,
+.section_4 {
+    padding: 4rem 2rem 6rem
+}
+
+@media screen and (max-width:390px) {
+    .titles p:after {
+        width: 72% !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+        width: 84px !important
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .titles h1,
+    .titles h2 {
+        font-size: 23px !important
+    }
+
+    .section_2 .description,
+    .titles p {
+        font-size: 14px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+        width: 70px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top {
+        top: -30px !important
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li p {
+        font-size: 18px !important
+    }
+
+    .titles p:after {
+        width: 80% !important
+    }
+}
+
+.ps-timeline-sec .container ol:before {
+    background: #fff;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -90px;
+    top: -4px
+}
+
+.ps-timeline-sec .container ol:after {
+    background: #fff;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    right: -90px;
+    top: -4px
+}
+
+.ps-timeline-sec .container ol.ps-timeline {
+    margin: 200px 0;
+    padding: 0;
+    border-top: 2px solid #fff;
+    list-style: none
+}
+
+.ps-timeline-sec .container ol.ps-timeline li {
+    float: left;
+    width: 25%;
+    padding-top: 30px;
+    position: relative
+}
+
+.ps-timeline-sec .container ol.ps-timeline li span {
+    width: 15px;
+    height: 15px;
+    margin-left: -25px;
+    background: #940001;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #fff;
+    text-align: center;
+    line-height: 50px -10;
+    color: #df8625;
+    font-size: 2em;
+    font-style: normal;
+    position: absolute;
+    top: -9px;
+    left: 50%
+}
+
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
+    content: "";
+    color: #fff;
+    width: 2px;
+    height: 65px;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    left: 45%
+}
+
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+    content: "";
+    color: #fff;
+    width: 2px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 3px
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 130px;
+    width: 100%
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img,
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top img {
+    display: table;
+    margin: 0 auto
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%
+}
+
+.ps-timeline-sec .container ol.ps-timeline li p {
+    text-align: center;
+    width: 100%;
+    font-family: Lato, serif;
+    margin: 0 auto;
+    font-size: 21px;
+    font-weight: 700
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .ps-top {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 80px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    box-shadow: 2px 4px 4px rgba(96, 2, 3, .2);
+    border-radius: 8px;
+    padding: 1rem
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+    position: absolute;
+    margin-top: 35px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    box-shadow: 2px 4px 4px rgba(96, 2, 3, .2);
+    border-radius: 8px;
+    padding: 1rem
+}
+
+.section_3 {
+    background: radial-gradient(50% 423.14% at 50% 46.16%, #fffcf3 0, rgba(255, 252, 239, .2) 100%)
+}
+
+.section_3 h1 {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #940001;
+    padding: 0
+}
+
+.provide_1 h3,
+.provide_1 p {
+    font-family: Lato, serif;
+    font-style: normal
+}
+
+.provide_1 p,
+.section_5 h4,
+.unique,
+.unique p {
+    margin-bottom: 0
+}
+
+.value-base {
+    font-size: 21px
+}
+
+.provide_1 {
+    background: #fff;
+    border: .2px solid #bbb;
+    border-radius: 12px;
+    margin-top: 20px
+}
+
+.provide_1 h3 {
+    font-weight: 600;
+    font-size: 16px
+}
+
+.provide_1 p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #3c3c3c
+}
+
+.section_4 {
+    background: #fef7de
+}
+
+.section_4 h1 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #940001;
+    padding-bottom: 0
+}
+
+.section_4 .academic-f,
+.section_about .allunder {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: .01em;
+    text-align: center;
+    color: #2d2d2d
+}
+
+.unique {
+    background: #fff;
+    border: .2px solid #bbb;
+    border-radius: 12px;
+    padding: 4rem 1rem;
+    height: 200px;
+    margin-top: 6rem
+}
+
+.unique p {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #2d2d2d
+}
+
+.section_5 h1,
+.section_5 h4 {
+    color: #940001;
+    font-style: normal
+}
+
+.unique_img {
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    left: 37%;
+    top: 17%
+}
+
+.section_5 {
+    padding: 4rem 0;
+    background: #fff
+}
+
+.section_5 h1 {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 2rem
+}
+
+.section_5 p,
+.section_5 ul li {
+    font-family: Lato, serif;
+    font-size: 16px;
+    font-style: normal
+}
+
+.section_5 p {
+    font-weight: 400
+}
+
+.ameniti {
+    margin: 2rem auto
+}
+
+.section_5 h4 {
+    font-family: Lato, serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: left;
+    padding: 1rem 0
+}
+
+.ameniti p {
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 600
+}
+
+.section_5 ul {
+    list-style-image: url(https://cdn.motion.ac.in/ssp/img/dhruv-residential/Vector.png)
+}
+
+.section_5 ul li {
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px
+}
+
+.section_6 {
+    padding: 4rem 3rem
+}
+
+.aim {
+    background: #940001;
+    border-radius: 12px;
+    padding: 2rem
+}
+
+.aim h1 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff
+}
+
+.aim p {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #fff;
+    text-align: justify
+}
+
+.aim p q {
+    color: #ffd03b;
+    font-size: 30px
+}
+
+.aim p q span {
+    color: #fff;
+    font-size: 22px
+}
+
+.section_7 {
+    padding: 2rem 3rem
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #dee2e6 !important;
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left
+}
+
+.section_7 h1,
+.section_about h2 {
+    font-family: Lato, serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0;
+    color: #940001
+}
+
+.modal .details,
+.modal .or,
+.section_7 h1,
+.section_about h2 {
+    text-align: center
+}
+
+.section_7 h1 {
+    font-style: normal;
+    line-height: 40px;
+    margin-bottom: 1rem;
+}
+
+.about-para p,
+.terms-div ol li {
+    line-height: 30px;
+    font-size: 20px
+}
+
+.fee-payment,
+.pay-button {
+    text-align: center;
+    padding: 2rem
+}
+
+.fee-payment .button {
+    background: #940001;
+    border: 1px solid #9a9595;
+    border-radius: 8px;
+    color: #fff;
+    display: block;
+    float: none;
+    margin: 0 auto
+}
+
+.fee-payment a:hover {
+    color: transparent
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none
+}
+
+.slick-dots li {
+    margin: 0 .25rem
+}
+
+.slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: #f2f2f2 !important;
+    text-indent: -9999px
+}
+
+.slick-dots li.slick-active button {
+    background-color: #910001 !important
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #940001 !important
+}
+
+.nav-link {
+    color: #858585
+}
+
+.pay-button .btn {
+    background: #940001;
+    border-radius: 8px;
+    color: #fff
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.section_about {
+    padding: 3rem 2rem
+}
+
+.section_about h2 {
+    margin: 0;
+    letter-spacing: .01em
+}
+
+.about-para p {
+    font-family: Lato, serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    color: #2d2d2d
+}
+
+.section_8 {
+    padding: 2rem 0 4rem
+}
+
+.section_8 h2 {
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: .01em;
+    text-align: center;
+    color: #940001;
+    margin-bottom: 4rem
+}
+
+.section_8 p,
+.section_9 .note,
+.terms-div ol li {
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left
+}
+
+.section_8 p,
+.section_9 .note {
+    font-family: Lato, serif;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 1rem
+}
+
+.section_9 .forstudent,
+.section_9 h2 {
+    font-family: Quicksand;
+    letter-spacing: .01em;
+    text-align: center
+}
+
+.terms-div {
+    background: #fbf6e5;
+    padding: 2rem 4rem;
+    border-radius: 16px
+}
+
+.terms-div ol {
+    list-style-image: url("https://cdn.motion.ac.in/ssp/img/dhruv-residential/arrow-img.png");
+    margin-left: 3rem
+}
+
+.section_7 ul {
+    list-style-image: url("https://cdn.motion.ac.in/ssp/img/dhruv-residential/start.png");
+    margin-left: 1.5rem
+}
+
+/* .section_7 ul li {
+    margin-top: 1rem;
+    font-size: 20px
+} */
+
+.terms-div ol li {
+    font-family: Lato, serif
+}
+
+.terms-div ul li {
+    list-style: disc;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem
+}
+
+.section_9 {
+    padding: 0 0 4rem
+}
+
+.section_9 .terms-div p {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left
+}
+
+.section_9 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #940001
+}
+
+.section_9 .forstudent {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 4rem
+}
