@@ -126,7 +126,7 @@
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: 1.2fr 1fr 1.1fr;
+            grid-template-columns: 1.1fr 0.9fr 0.9fr 1.1fr;
             gap: 20px;
         }
 
@@ -160,6 +160,35 @@
             min-height: 170px;
             border: 0;
             border-radius: 8px;
+        }
+
+        .follow-us-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 6px;
+        }
+
+        .follow-link {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid #d7be70;
+            background: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #7a2f00;
+        }
+
+        .follow-link img {
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+
+        .follow-link i {
+            display: none;
         }
 
         .footer-bottom {
@@ -196,6 +225,9 @@
                 <img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus">
                 <span style="color: #eb0000; font-weight: 600; margin-left: 10px; font-size: 18px; white-space: nowrap;">Anand Gurukul</span>
             </div>
+            <button class="mobile-menu-btn" type="button" aria-label="Open navigation" aria-expanded="false">
+                <img src="./assets/photos/hamburger-menu.svg" alt="Menu">
+            </button>
             <div class="nav-links">
                 <div class="sidebar-logo"><span class="logo-name"><img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus"></span><i class='bx bx-x'></i></div>
                 <ul class="links">
@@ -257,12 +289,24 @@
                     <a href="about-us.html">About Us</a>
                 </div>
             </div>
+            <div class="footer-block">
+                <h4>Follow Us On</h4>
+                <div class="follow-us-links">
+                    <a href="#" class="follow-link" aria-label="WhatsApp"><img src="./assets/photos/whatsapp-icon.svg" alt="WhatsApp"></a>
+                    <a href="#" class="follow-link" aria-label="Email"><img src="./assets/photos/email-icon.svg" alt="Email"></a>
+                    <a href="#" class="follow-link" aria-label="Facebook"><img src="./assets/photos/facebook-icon.svg" alt="Facebook"></a>
+                    <a href="#" class="follow-link" aria-label="YouTube"><img src="./assets/photos/youtube-icon.svg" alt="YouTube"></a>
+                    <a href="#" class="follow-link" aria-label="X"><img src="./assets/photos/x-icon.svg" alt="X"></a>
+                    <a href="#" class="follow-link" aria-label="Instagram"><img src="./assets/photos/instagram-icon.svg" alt="Instagram"></a>
+                </div>
+            </div>
             <div class="footer-block footer-map">
                 <iframe title="Head Office Location" src="https://www.google.com/maps?q=117/20K+RS+PURAM+KAKADEO+KANPUR-208025&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div class="footer-bottom">(C) Copyright Reserved by AGRP</div>
     </footer>
+    <script src="./assets/js/mobile-nav.js"></script>
 </body>
 
 </html>
