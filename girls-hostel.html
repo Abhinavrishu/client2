@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Hostel | ANAND GURUKUL RESIDENTIAL CAMPUS</title>
+    <meta name="description" content="Girls hostel facilities and details." />
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="icon" href="https://cdn.motion.ac.in/ssp/img/images/favi-icon.png" sizes="192x192" />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style-home.css">
+    <link rel="stylesheet" href="./assets/css/responsive_latest.css">
+    <link href="./assets/css/boxicons.min.css" rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/header-nav.css">
+
+    <style>
+        .page-wrap {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 56px 16px;
+        }
+
+        .hero-title {
+            font-size: 34px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .hero-sub {
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .room-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .room-card {
+            border-radius: 12px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+        }
+
+        .room-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .room-card .content {
+            padding: 14px;
+        }
+
+        .room-card h3 {
+            font-size: 19px;
+            margin: 0 0 8px;
+            color: #7a2f00;
+        }
+
+        .room-card p {
+            color: #555;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        .info-box {
+            background: #fff7e6;
+            border: 1px solid #ffd08a;
+            border-radius: 10px;
+            padding: 18px;
+        }
+
+        .info-box h4 {
+            margin: 0 0 10px;
+            color: #7a2f00;
+            font-size: 20px;
+        }
+
+        .info-box ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .info-box li {
+            color: #4b3000;
+            line-height: 1.8;
+        }
+
+        .links li {
+            position: relative;
+        }
+
+        .links li.dropdown .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 34px;
+            left: 0;
+            min-width: 170px;
+            background: #fff;
+            border: 1px solid #e2e2e2;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            padding: 8px 0;
+            z-index: 1200;
+        }
+
+        .links li.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .links li.dropdown .dropdown-menu a {
+            display: block;
+            padding: 8px 14px;
+            font-size: 14px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 14px;
+            border-radius: 6px;
+            background: #eb0000;
+            color: #fff !important;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .site-footer {
+            background: #fff6cc;
+            margin-top: 30px;
+            border-top: 1px solid #f1df9b;
+            padding: 22px 12px 10px;
+        }
+
+        .site-footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr 1.1fr;
+            gap: 20px;
+        }
+
+        .footer-block h4 {
+            margin: 0 0 10px;
+            font-size: 18px;
+            color: #7a2f00;
+        }
+
+        .footer-block p,
+        .footer-block a {
+            color: #4b3000;
+            font-size: 14px;
+            line-height: 1.7;
+            text-decoration: none;
+            margin: 0;
+        }
+
+        .footer-block a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .footer-map iframe {
+            width: 100%;
+            min-height: 170px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 14px auto 0;
+            padding-top: 10px;
+            border-top: 1px solid #e8d99e;
+            text-align: left;
+            color: #7a2f00;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 980px) {
+            .room-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .site-footer-inner {
+                grid-template-columns: 1fr;
+            }
+
+            .links li.dropdown .dropdown-menu {
+                left: auto;
+                right: 0;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .room-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container mynavbar">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus">
+                <span style="color: #eb0000; font-weight: 600; margin-left: 10px; font-size: 18px; white-space: nowrap;">Anand Gurukul</span>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo"><span class="logo-name"><img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus"></span><i class='bx bx-x'></i></div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#">Hostel</a>
+                        <div class="dropdown-menu">
+                            <a href="boys-hostel.html">Boys Hostel</a>
+                            <a href="girls-hostel.html">Girls Hostel</a>
+                        </div>
+                    </li>
+                    <li><a href="./assets/photos/brochure.pdf" target="_blank">Brochure</a></li>
+                    <li><a href="./assets/photos/brochure.pdf" class="download-btn" download>Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-wrap">
+        <h1 class="hero-title">Girls Hostel</h1>
+        <p class="hero-sub">Comfortable residential environment with safety and academic support.</p>
+
+        <div class="room-grid">
+            <article class="room-card">
+                <img src="https://picsum.photos/700/450?random=51" alt="Girls Hostel Room 1">
+                <div class="content">
+                    <h3>Single Occupancy Room</h3>
+                    <p>Spacious and clean room with individual study desk and secure storage space.</p>
+                </div>
+            </article>
+            <article class="room-card">
+                <img src="https://picsum.photos/700/450?random=52" alt="Girls Hostel Room 2">
+                <div class="content">
+                    <h3>Double Occupancy Room</h3>
+                    <p>Shared accommodation designed for comfort, discipline, and focused preparation.</p>
+                </div>
+            </article>
+            <article class="room-card">
+                <img src="https://picsum.photos/700/450?random=53" alt="Girls Hostel Study Area">
+                <div class="content">
+                    <h3>Study Hall</h3>
+                    <p>Dedicated study area with supervision, ideal for self-study and revision sessions.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="info-box">
+            <h4>Dummy Facility Details</h4>
+            <ul>
+                <li>24x7 warden support and security monitoring</li>
+                <li>Healthy meals and hygiene-focused kitchen</li>
+                <li>Regular housekeeping and laundry support</li>
+                <li>Clean drinking water and power backup</li>
+                <li>Mentorship assistance and routine check-ins</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-block">
+                <h4>Head Office Address</h4>
+                <p>117/20K RS PURAM KAKADEO KANPUR-208025</p>
+                <p>Phone: <a href="tel:+919125420383">9125420383</a></p>
+                <p>Email: <a href="mailto:missionagrp@gmail.com">missionagrp@gmail.com</a></p>
+            </div>
+            <div class="footer-block">
+                <h4>Useful Links</h4>
+                <div class="footer-links">
+                    <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="about-us.html">About Us</a>
+                </div>
+            </div>
+            <div class="footer-block footer-map">
+                <iframe title="Head Office Location" src="https://www.google.com/maps?q=117/20K+RS+PURAM+KAKADEO+KANPUR-208025&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">(C) Copyright Reserved by AGRP</div>
+    </footer>
+</body>
+
+</html>

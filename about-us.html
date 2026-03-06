@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ANAND GURUKUL RESIDENTIAL CAMPUS</title>
+    <meta name="description" content="About Anand Gurukul Residential Campus." />
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="icon" href="https://cdn.motion.ac.in/ssp/img/images/favi-icon.png" sizes="192x192" />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style-home.css">
+    <link rel="stylesheet" href="./assets/css/responsive_latest.css">
+    <link href="./assets/css/boxicons.min.css" rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/header-nav.css">
+
+    <style>
+        .page-wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 56px 16px;
+        }
+
+        .page-wrap h1 {
+            font-size: 34px;
+            margin-bottom: 14px;
+            color: #333;
+        }
+
+        .page-wrap p {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .office-grid {
+            margin-top: 28px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: stretch;
+        }
+
+        .office-card {
+            background: #fff7e6;
+            border: 1px solid #ffd08a;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .office-card h2 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: #7a2f00;
+        }
+
+        .office-card p,
+        .office-card a {
+            color: #4b3000;
+            text-decoration: none;
+            line-height: 1.8;
+        }
+
+        .office-card a:hover {
+            text-decoration: underline;
+        }
+
+        .office-map iframe {
+            width: 100%;
+            min-height: 260px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .links li {
+            position: relative;
+        }
+
+        .links li.dropdown .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 34px;
+            left: 0;
+            min-width: 170px;
+            background: #fff;
+            border: 1px solid #e2e2e2;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            padding: 8px 0;
+            z-index: 1200;
+        }
+
+        .links li.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .links li.dropdown .dropdown-menu a {
+            display: block;
+            padding: 8px 14px;
+            font-size: 14px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 14px;
+            border-radius: 6px;
+            background: #eb0000;
+            color: #fff !important;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .site-footer {
+            background: #fff6cc;
+            margin-top: 30px;
+            border-top: 1px solid #f1df9b;
+            padding: 22px 12px 10px;
+        }
+
+        .site-footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr 1.1fr;
+            gap: 20px;
+        }
+
+        .footer-block h4 {
+            margin: 0 0 10px;
+            font-size: 18px;
+            color: #7a2f00;
+        }
+
+        .footer-block p,
+        .footer-block a {
+            color: #4b3000;
+            font-size: 14px;
+            line-height: 1.7;
+            text-decoration: none;
+            margin: 0;
+        }
+
+        .footer-block a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .footer-map iframe {
+            width: 100%;
+            min-height: 170px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 14px auto 0;
+            padding-top: 10px;
+            border-top: 1px solid #e8d99e;
+            text-align: left;
+            color: #7a2f00;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 900px) {
+            .office-grid,
+            .site-footer-inner {
+                grid-template-columns: 1fr;
+            }
+
+            .links li.dropdown .dropdown-menu {
+                left: auto;
+                right: 0;
+            }
+        }
+    </style>
+
+    <script src="./assets/js/jquery.js"></script>
+</head>
+
+<body>
+    <nav class="container mynavbar">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus">
+                <span style="color: #eb0000; font-weight: 600; margin-left: 10px; font-size: 18px; white-space: nowrap;">Anand Gurukul</span>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo"><span class="logo-name"><img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus"></span><i class='bx bx-x'></i></div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#">Hostel</a>
+                        <div class="dropdown-menu">
+                            <a href="boys-hostel.html">Boys Hostel</a>
+                            <a href="girls-hostel.html">Girls Hostel</a>
+                        </div>
+                    </li>
+                    <li><a href="./assets/photos/brochure.pdf" target="_blank">Brochure</a></li>
+                    <li><a href="./assets/photos/brochure.pdf" class="download-btn" download>Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-wrap">
+        <h1>About Us</h1>
+        <p>
+            Anand Gurukul Residential Program (AGRP) is designed to provide students with a disciplined and supportive
+            ecosystem for NEET and JEE preparation. The campus combines hostel comfort, mentorship, daily monitoring,
+            and focused self-study so students can build strong academic habits and confidence.
+        </p>
+        <p>
+            Our objective is to give every student a structured routine, quality environment, and continuous guidance
+            under one roof so they can work toward their target examination with clarity and consistency.
+        </p>
+
+        <div class="office-grid">
+            <div class="office-card">
+                <h2>Head Office Address</h2>
+                <p>117/20K RS PURAM KAKADEO KANPUR-208025</p>
+                <p>Phone: <a href="tel:+919125420383">9125420383</a></p>
+                <p>Email: <a href="mailto:missionagrp@gmail.com">missionagrp@gmail.com</a></p>
+            </div>
+            <div class="office-map">
+                <iframe title="Head Office Location" src="https://www.google.com/maps?q=117/20K+RS+PURAM+KAKADEO+KANPUR-208025&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-block">
+                <h4>Head Office Address</h4>
+                <p>117/20K RS PURAM KAKADEO KANPUR-208025</p>
+                <p>Phone: <a href="tel:+919125420383">9125420383</a></p>
+                <p>Email: <a href="mailto:missionagrp@gmail.com">missionagrp@gmail.com</a></p>
+            </div>
+            <div class="footer-block">
+                <h4>Useful Links</h4>
+                <div class="footer-links">
+                    <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="about-us.html">About Us</a>
+                </div>
+            </div>
+            <div class="footer-block footer-map">
+                <iframe title="Head Office Location" src="https://www.google.com/maps?q=117/20K+RS+PURAM+KAKADEO+KANPUR-208025&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">(C) Copyright Reserved by AGRP</div>
+    </footer>
+</body>
+
+</html>
