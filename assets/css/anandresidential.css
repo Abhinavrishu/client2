@@ -288,7 +288,7 @@ label {
 
 .section_2 {
     padding: 1rem;
-    background-image: url(https://cdn.motion.ac.in/ssp/img/dhruv-residential/hero-section.png);
+    background-image: url(../photos/plain_9b0000.png);
     background-size: cover;
     background-position: top
 }
@@ -659,9 +659,12 @@ label {
     }
 
     .ps-timeline-sec .container ol.ps-timeline li {
-        height: 150px;
+        min-height: 150px;
+        height: auto;
         float: none !important;
-        width: inherit !important
+        width: 100% !important;
+        display: block;
+        overflow: hidden
     }
 
     .ps-timeline-sec .container ol.ps-timeline li:nth-child(2) .img-handler-bot img {
@@ -1163,7 +1166,7 @@ label {
 .ps-timeline-sec .container ol.ps-timeline li .ps-top {
     position: absolute;
     bottom: 0;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     background: #fff;
     border: 1px solid #d5d5d5;
     box-shadow: 2px 4px 4px rgba(96, 2, 3, .2);
@@ -1173,7 +1176,7 @@ label {
 
 .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
     position: absolute;
-    margin-top: 35px;
+    margin-top: 80px;
     background: #fff;
     border: 1px solid #d5d5d5;
     box-shadow: 2px 4px 4px rgba(96, 2, 3, .2);

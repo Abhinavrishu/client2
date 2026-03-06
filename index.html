@@ -1,9 +1,6 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/anandresidential.css">
 <style type="text/css">
-    /* .row{
-    margin-right: -15px !important;
-    margin-left: -15px !important;
-  } */
+   
 
     .wrapper_footer {
         background: url(../../fonts/motioncollaborators.png) !important;
@@ -24,7 +21,7 @@
    
     <meta property="og:title" content="ANAND GURUKUL RESIDENTIAL CAMPUS– Complete guidance for JEE, NEET &amp; Foundation" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://motion.ac.in/anand-gurukul-residential/" /><!-- yha pe apna site host description change kr rha hu  -->
+    <meta property="og:url" content="https://motion.ac.in/anand-gurukul-residential/" />
     <meta property="og:image" content="https://motion.ac.in/website/images/motion_open.jpg" />
     <meta property="og:site_name" content="Motion" />
     <meta property="og:description" content="Enroll at Anand Gurukul Residential Campus in Kota for integrated coaching, comfortable hostel &amp; nutritious meals, all under one roof. Programs designed for Class 7 to 12 students targeting JEE, NEET &amp; Board exams."
@@ -34,11 +31,10 @@
     <meta name="twitter:title" content="ANAND GURUKUL RESIDENTIAL CAMPUS – Complete guidance for JEE, NEET &amp; Foundation" />
     <meta name="twitter:description" content="Enroll at Anand Gurukul Residential Campus for guidance, comfortable hostel &amp; nutritious meals, under one roof. Programs designed for Class 7 to 12 students targeting JEE, NEET &amp; Board exams."
     />
-    <meta name="twitter:image" content="https://motion.ac.in/website/images/motion_open.jpg" /><!-- photo apna -->
-    <meta itemprop="image" content="https://motion.ac.in/website/images/motion_open.jpg" /><!--photo apna-->
+    <meta name="twitter:image" content="https://motion.ac.in/website/images/motion_open.jpg" />
+    <meta itemprop="image" content="https://motion.ac.in/website/images/motion_open.jpg" />
 
-     <!-- motion ka logo page pe le jana h wo hatana h -->
-    <link rel="icon" href="https://cdn.motion.ac.in/ssp/img/images/favi-icon.png" sizes="192x192" /><!-- hr meta data pr apna photo -->
+    <link rel="icon" href="https://cdn.motion.ac.in/ssp/img/images/favi-icon.png" sizes="192x192" />
     <link rel="apple-touch" href="https://cdn.motion.ac.in/ssp/img/images/180.png" />
 
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -52,11 +48,12 @@
     <link rel="stylesheet" href="./assets/css/style-home.css">
     <link rel="stylesheet" href="./assets/css/responsive_latest.css">
 
-    <!-- <link href="https://cdn.motion.ac.in/ssp/css/font-awesome.min.css"> -->
+
     <link rel="stylesheet" href="./assets/css/alertify.min.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap-datepicker.min.css" />
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <link href="./assets/css/boxicons.min.css" rel='stylesheet'>
     <link rel="stylesheet" href="./assets/css/header-nav.css">
 
@@ -64,11 +61,81 @@
         .alertify-notifier {
             font-size: 13px;
         }
+
+        .site-footer {
+            background: #fff6cc;
+            padding: 16px 12px;
+            margin-top: 40px;
+            border-top: 1px solid #f1df9b;
+        }
+
+        .site-footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .footer-left a {
+            color: #7a2f00;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .footer-left a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .social-btn {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 1px solid #d7be70;
+            background: #fff;
+            color: #7a2f00;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .social-btn:hover {
+            background: #ffeeb0;
+        }
+
+        @media (max-width: 640px) {
+            .site-footer-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
     </style>
     <script type="text/javascript">
         var APP_URL = "http://127.0.0.1:5500"
+        var EMAILJS_CONFIG = {
+            PUBLIC_KEY: "YOUR_EMAILJS_PUBLIC_KEY",
+            SERVICE_ID: "YOUR_EMAILJS_SERVICE_ID",
+            TEMPLATE_ID: "YOUR_EMAILJS_TEMPLATE_ID"
+        };
         jQuery.support.cors = true;
-    </script><!-- apna domain -->
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.emailjs && EMAILJS_CONFIG.PUBLIC_KEY !== "YOUR_EMAILJS_PUBLIC_KEY") {
+                emailjs.init({
+                    publicKey: EMAILJS_CONFIG.PUBLIC_KEY
+                });
+            }
+        });
+    </script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -146,7 +213,7 @@
             },
             "hasMap": "https://goo.gl/maps/yLbim9SSVDNU31RR9"
         }  
-    </script> <!--is pure script me sab kuchh apna dena h host k baad unse unka linkdin aur google map aur sab kjuchh mang kr -->
+    </script>
 </head>
 
 <body>
@@ -174,152 +241,19 @@
     <nav class="container mynavbar">
         <div class="navbar">
             <div class="logo">
-                <i class='bx bx-menu'></i>
                 <img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus">
-            
+                <span style="color: #eb0000; font-weight: 600; margin-left: 10px; font-size: 18px; white-space: nowrap;">Anand Gurukul</span>
             </div>
             <div class="nav-links">
                 <div class="sidebar-logo"><span class="logo-name"><img src="./assets/photos/logo.jpeg" alt="Anand Gurukul Residential Campus"></span><i class='bx bx-x'></i></div>
-                <ul class="links"></ul>
+                <ul class="links">
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+                </ul>
             </div>
-            <!-- <a href="tel:18002121799">
-         
-            <svg width="20" height="20" viewBox="0 0 24 24" style="fill: rgb(255 255 255);transform: msFilter;">
-                <path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path>
-            </svg>
-        </a> -->
 
         </div>
     </nav>
-
-    <!-- <script type="text/javascript">
-    let navbar = document.querySelector(".navbar");
-    let navLinks = document.querySelector(".nav-links");
-    let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-    let menuCloseBtn = document.querySelector(".nav-links .bx-x");
-    menuOpenBtn.onclick = function() {
-        navLinks.style.left = "0";
-    }
-    menuCloseBtn.onclick = function() {
-        navLinks.style.left = "-100%";
-    }
-    // sidebar submenu open close js code
-    let navArrow = document.querySelector(".nav-arrow");
-    navArrow.onclick = function() {
-        navLinks.classList.toggle("show1");
-    }
-    let jsArrow = document.querySelector(".nav-arrow1");
-    jsArrow.onclick = function() {
-        navLinks.classList.toggle("show2");
-    }
-    // let jsArrow1 = document.querySelector(".nav-arrow2");
-    // jsArrow1.onclick = function() {
-    //     navLinks.classList.toggle("show3");
-    // }
-    let jsArrow2 = document.querySelector(".nav-arrow3");
-    jsArrow2.onclick = function() {
-        navLinks.classList.toggle("show4");
-    }
-    let jsArrow3 = document.querySelector(".nav-arrow4");
-    jsArrow3.onclick = function() {
-        navLinks.classList.toggle("show5");
-    }
-    let jsArrow4 = document.querySelector(".nav-arrow5");
-    jsArrow4.onclick = function() {
-        navLinks.classList.toggle("show6");
-    }
-    let jsArrow5 = document.querySelector(".nav-arrow6");
-    jsArrow5.onclick = function() {
-        navLinks.classList.toggle("show7");
-    }
-
-
-    let moreArrow = document.querySelector(".more-arrow");
-    moreArrow.onclick = function() {
-        navLinks.classList.toggle("show8");
-    }
-    let moreArrow1 = document.querySelector(".more-arrow1");
-    moreArrow1.onclick = function() {
-        navLinks.classList.toggle("show9");
-    }
-    let moreArrow2 = document.querySelector(".more-arrow2");
-    moreArrow2.onclick = function() {
-        navLinks.classList.toggle("show10");
-    }
-    let moreArrow3 = document.querySelector(".more-arrow3");
-    moreArrow3.onclick = function() {
-        navLinks.classList.toggle("show11");
-    }
-</script> -->
-    <script type="text/javascript">
-        let navbar = document.querySelector(".navbar");
-        let navLinks = document.querySelector(".nav-links");
-        let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-        let menuCloseBtn = document.querySelector(".nav-links .bx-x");
-
-
-
-        menuOpenBtn.onclick = function() {
-            navLinks.style.left = "0";
-        }
-        menuCloseBtn.onclick = function() {
-            navLinks.style.left = "-100%";
-        }
-        // sidebar submenu open close js code
-        let navArrow = document.querySelector(".nav-arrow");
-        navArrow.onclick = function() {
-            navLinks.classList.toggle("show1");
-            navLinks.classList.remove("show2", "show3", "show4", "show5", "show6", "show7");
-        }
-        let navArrow1 = document.querySelector(".nav-arrow1");
-        navArrow1.onclick = function() {
-            navLinks.classList.toggle("show2");
-            navArrow1.classList.toggle("rotated");
-            navLinks.classList.remove("show1", "show3", "show4", "show5", "show6", "show7");
-        }
-        // let jsArrow1 = document.querySelector(".nav-arrow2");
-        // jsArrow1.onclick = function() {
-        //     navLinks.classList.toggle("show3");
-        // }
-        let jsArrow2 = document.querySelector(".nav-arrow3");
-        jsArrow2.onclick = function() {
-            navLinks.classList.toggle("show4");
-            navLinks.classList.remove("show1", "show2", "show3", "show5", "show6", "show7");
-        }
-        let jsArrow3 = document.querySelector(".nav-arrow4");
-        jsArrow3.onclick = function() {
-            navLinks.classList.toggle("show5");
-            navLinks.classList.remove("show1", "show2", "show3", "show4", "show6", "show7");
-        }
-        let jsArrow4 = document.querySelector(".nav-arrow5");
-        jsArrow4.onclick = function() {
-            navLinks.classList.toggle("show6");
-            navLinks.classList.remove("show1", "show2", "show3", "show4", "show5", "show7");
-        }
-        let jsArrow5 = document.querySelector(".nav-arrow6");
-        jsArrow5.onclick = function() {
-            navLinks.classList.toggle("show7");
-            navLinks.classList.remove("show1", "show2", "show3", "show4", "show5", "show6");
-        }
-
-
-        let moreArrow = document.querySelector(".more-arrow");
-        moreArrow.onclick = function() {
-            navLinks.classList.toggle("show8");
-        }
-        let moreArrow1 = document.querySelector(".more-arrow1");
-        moreArrow1.onclick = function() {
-            navLinks.classList.toggle("show9");
-        }
-        let moreArrow2 = document.querySelector(".more-arrow2");
-        moreArrow2.onclick = function() {
-            navLinks.classList.toggle("show10");
-        }
-        let moreArrow3 = document.querySelector(".more-arrow3");
-        moreArrow3.onclick = function() {
-            navLinks.classList.toggle("show11");
-        }
-    </script>
 
     <script>
         $(window).on('scroll', function() {
@@ -336,11 +270,6 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-6 col-sm-6 main_sec1 title_bar">
                         <div class="titles">
-                            <!-- <p>Admissions open for class 7th to 12th</p> -->
-                            <!-- <h1>DHRUV CAMPUS</h1>
-            <h2>All Under One Roof Program</h2>
-            <h4>For Class 7th to 12th Students</h4> -->
-                            <!-- <h4>*Limited Seats Available For Session 2024-25 </h4> -->
                             <h1>ANAND GURUKUL RESIDENTIAL CAMPUS</h1>
                             <p class="hostel">Hostel + Food + Guidance all under one roof</p>
                             <p class="target_jee">TARGET - JEE (MAIN + ADVANCED) | NEET | BOARD</p>
@@ -361,8 +290,6 @@
                                 <div class="form-group">
                                     <div class="col-md-12">
                                         <label>Name</label>
-                                        <!-- <input type="text" name="stname" class="form-control" placeholder="Enter Your Name" required pattern="[a-zA-Z][a-zA-Z ]+">
-                  <div class="stname validation-error"></div> -->
                                         <input type="text" class="form-control" required name="stname" oninput="this.value = this.value.replace(/[^a-z ]/gi, '')" placeholder="Enter Student’s Name" onpaste="event.preventDefault();">
                                     </div>
                                 </div>
@@ -473,7 +400,7 @@
                             <p>Limited Seats Available For Session 2026-27, Book Your Seat Now By Paying <span class="rupee">Rs. 5000*</span></p>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-2 mobile_book_now">
-                            <a href="https://motion.ac.in/registration-form/" target="_blank"><button type="button" class="book_now">Book Now</button></a>
+                            <a href="#top"><button type="button" class="book_now">Book Now</button></a>
                         </div>
                     </div>
                 </div>
@@ -488,42 +415,17 @@
                     <div class="col-lg-7 col-md-6 col-sm-6 para-about">
                         <div class="about-para">
                             <p>
-        Students preparing for competitive exams like <strong>NEET / JEE</strong> 
-        who want to live a disciplined, focused, and goal-oriented life —
-    </p>
-
-    <p>
-        The vision behind Anand Gurukul is to create a 
-        <strong>safe, structured, and nurturing residential environment</strong>, 
-        where students receive the right academic atmosphere supported by:
-    </p>
-
-    <ul>
-        <li>A disciplined daily routine</li>
-        <li>Mental strength development</li>
-        <li>Life discipline</li>
-        <li>Complete focus on academic goals</li>
-    </ul>
-
-    <p>
-        This program provides a <strong>supportive guidance ecosystem</strong>, 
-        where students can continue their coaching along with:
-    </p>
-    <ul><li>Hostel facility (Stay + Food)</li>
-        <li>Complete guidance & mentorship</li>
-        <li>24×7 monitoring</li>
-        <li>Balanced schedule of study, revision, rest & sports</li>
-    </ul>
-
-    <p>
-        This helps students grow academically, personally, and build a strong future.
+       AGRP is a residential program designed for students preparing for NEET / JEE entrance examinations. Its aim is to provide students with a disciplined, focused, and supportive environment that helps them prepare effectively and get selected in their dream colleges.
+This program is designed to give students a comprehensive residential experience, where they can stay in a structured system similar to a coaching institute and prepare for their studies through Anand Gurukul’s Residential Program.
+AGRP students are provided with safe and affordable hostel facilities in a study-friendly environment that supports their academic preparation as well as personal growth. Students also receive daily routine monitoring and guided self-study sessions to strengthen their preparation.
+Anand Gurukul’s Residential Program provides students with clean and nutritious food, a disciplined lifestyle, and 24×7 mentorship support. The aim is to create a nurturing environment where students can focus on their academic goals while also developing life skills, self-discipline, and personal growth.
     </p>
 
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-6">
                         <div class="about-img">
-                            <iframe class="youtube_video play_1" width="100%" height="315" src="https://www.youtube.com/embed/YkmdSZysKRk?si=oJSwalzdWdbwwSzH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            <iframe class="youtube_video play_1" width="100%" height="315" src="https://www.youtube.com/embed/h780aHCxEa0?si=Cb2l2XjtkKlmDs1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
                             <div class="play-icon-1 ply-btn">
                                 <div class="wrapper">
@@ -594,31 +496,54 @@
         </section>
         <section class="section_2">
             <h1>Our Purpose</h1>
-            <!-- <p class="description">Serve the Society through Education. Only Profit-Making is not the purpose!!</p> -->
             <div class="ps-timeline-sec">
                 <div class="container">
                     <ol class="ps-timeline">
                         <li>
                             <div class="ps-bot">
-                                <p>Introduction to the real-life scenarios</p>
+                                <p>coaching friendly ecosystem</p>
                             </div>
                             <span class="ps-sp-top"></span>
                         </li>
                         <li>
                             <div class="ps-top">
-                                <p class="value-base">Value Based Education</p>
+                                <p class="value-base">hostel,guidance and mentorship under one roof </p>
                             </div>
                             <span class="ps-sp-bot"></span>
                         </li>
                         <li>
                             <div class="ps-bot">
-                                <p>Stress Free Environment</p>
+                                <p>Ideal environment for focused preparation</p>
                             </div>
                             <span class="ps-sp-top"></span>
                         </li>
                         <li>
                             <div class="ps-top">
-                                <p>Flourish Inner Talent to the Full Potential</p>
+                                <p>Residential discipline system</p>
+                            </div>
+                            <span class="ps-sp-bot"></span>
+                        </li>
+                         <li>
+                            <div class="ps-bot">
+                                <p>AGRP sankalpdiary daily self study monitoring</p>
+                            </div>
+                            <span class="ps-sp-top"></span>
+                        </li>
+                         <li>
+                            <div class="ps-top">
+                                <p>Mentorship and motivation</p>
+                            </div>
+                            <span class="ps-sp-bot"></span>
+                        </li>
+                         <li>
+                            <div class="ps-bot">
+                                <p>Safe and secure campus</p>
+                            </div>
+                            <span class="ps-sp-top"></span>
+                        </li>
+                         <li>
+                            <div class="ps-top">
+                                <p>Affordable and transparent fee structure</p>
                             </div>
                             <span class="ps-sp-bot"></span>
                         </li>
@@ -628,53 +553,8 @@
         </section>
         <section class="section_4">
             <h1>What makes ANAND GURUKUL unique?</h1>
-            <p class="academic-f">(Hostel Features)</p>
+            <p class="academic-f">(AGRP Features)</p>
             <div class="container-fluid">
-                <!-- <div class="row news-slidecnt">
-        <div class="col-md-4">
-          <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/unique-1.png" class="unique_img">
-          <div class="unique">
-            <p>Expert Faculty: Learn from some of the best minds in the industry, with years of experience in teaching and mentoring.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/unique-2.png" class="unique_img">
-          <div class="unique">
-            <p>Comprehensive Study Material: Access to meticulously designed study materials, including books, practice papers, and digital resources.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/unique-3.png" class="unique_img">
-          <div class="unique">
-            <p>Personalized Attention: Small batch sizes to ensure individual attention and doubt-clearing sessions.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/unique-4.png" class="unique_img">
-          <div class="unique">
-            <p>Modern Infrastructure: Well-equipped classrooms, libraries, and labs to facilitate seamless learning.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/unique-5.png" class="unique_img">
-          <div class="unique">
-            <p>Hostel Facilities: Comfortable and secure accommodation with nutritious meals, recreational areas, and 24/7 supervision.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/unique-6.png" class="unique_img">
-          <div class="unique">
-            <p>Regular Assessments: Periodic tests and performance analysis to track progress and identify areas for improvement.
-            </p>
-          </div>
-        </div>
-      </div> -->
                 <div class="row justify-content-center">
                     <div class="col-lg-5 col-md-6">
                         <div class="feature_1">
@@ -707,47 +587,12 @@
             </div>
         </section>
         <section class="section_5">
-            <!-- <h1>Amenities and Infrastructure</h1> -->
-
-            <!-- <div class="container">
-      <p>Motion provides you with a top-notch residential coaching program that gets students ready for intense study sessions so they can ace tests like the JEE and the NEET. We started this program with the express intention of giving you a supportive classroom atmosphere so you may form a habit of concentrated learning and move forward on the road to success for the duration of your academic career. The goal of a residential coaching program is to provide a supportive and immersive environment for individuals to achieve their personal goals and make lasting changes in their lives.</p>
-
-      <h4>Amenities</h4>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="ameniti">
-              <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/ameniti-1.png" width="100%">
-              <p>Regular Sanitization and Thermal Scanning</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="ameniti">
-              <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/ameniti-2.png" width="100%">
-              <p>24*7 Medical Service</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="ameniti">
-              <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/ameniti-3.png" width="100%">
-              <p>Nutritious & Hygienic Meals</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="ameniti">
-              <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/ameniti-4.png" width="100%">
-              <p>Motion Kit: Printed Study Materials, bag, t-shirt, umbrella, face mask, and winter wear.</p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
             <div class="container pt-3">
                 <h4>Residential Hostel Features</h4>
                 <div class="row">
                     <div class="col-lg-7 col-md-6 col-sm-6 campus">
                         <ul>
                             <li>Safe & secured lush green, pollution free campus. Properly ventilated classrooms with ample availability of sunlight and fresh air.</li>
-                            <!-- <li>Self-study rooms with zero-Db noise under the supervision of subject experts.</li> -->
                             <li>Hygienic & Healthy-food with the mouth-watering taste of India &  Indoor - Outdoor Sports Facilities available.</li>
                             <li>Safe & secure separate hostel facilities for boys and girls</li>
                             <li>24×7 mentor & supervision support.</li>
@@ -768,15 +613,13 @@
             <div class="container-fluid aim">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <h1 class="our-aim-1">Our Vision</h1>
-                        <img src="https://cdn.motion.ac.in/ssp/img/dhruv-residential/business-vision.png" width="100%">
+                        <h1 class="our-aim-1">Our Aim</h1>
+                        <img src="./assets/photos/12.png" width="100%">
                     </div>
                     <div class="col-lg-8 col-md-6 col-sm-6">
                         <div class="our-aim">
-                            <h1 class="our-aim-2">Our Vision</h1>
+                            <h1 class="our-aim-2">Our Aim</h1>
                             <p><q>
-
-                <!-- <span><span style="color:#FFD03B;">Our Aim</span> is to provide an Environment which is the Fine Blend of <span style="color:#FFD03B;">Quality Education</span> and <span style="color:#FFD03B;">Discipline.</span> We are committed to follow the philosophy of Zero-Tolerance towards dilution in quality of Academic and Non-Academic Affairs. </span> -->
 
                 <span>The <span style="color:#FFD03B;">vision behind ANAND GURUKUL</span> is to create an affordable, nurturing, and inclusive environment that will foster <span style="color:#FFD03B;">academic success, personal growth, learning, and social development.</span> The program aims to provide a supportive community where all individuals get access to high-quality education, important skills, knowledge, and experiences needed for success in their academic, personal, and social ventures.</span>
               </q></p>
@@ -841,33 +684,11 @@
                    
                 </div>
                 
-    <script>
-        $(window).on('scroll', function() {
-            if ($(this).scrollTop() > 0) {
-                $('#back-top').fadeIn(1000);
-            } else {
-                $('#back-top').fadeOut(1000);
-            }
-        });
-    </script>
-
     <script src="https://cdn.motion.ac.in/ssp/js/jquery.js?v=1771506852"></script>
     <script src="https://cdn.motion.ac.in/ssp/js/bootstrap.min.js?v=1771506852"></script>
     <script src="https://cdn.motion.ac.in/ssp/js/popper.min.js?v=1771506852"></script>
     <script src="https://cdn.motion.ac.in/ssp/js/slick.min.js?v=1771506852"></script>
 
-    <!-- <script type="text/javascript">
-    var c = window.location.href;
-    var d = c.split('https://motion.ac.in/')[1];
-    var e = d.split('&')[0];
-    var f = e.replace("lang=", "");
-    if (f !== "ram-mandir-ayodhya/") {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = "https://cdn.motion.ac.in/ssp/js/custom.js?v=1771506852";
-        document.head.appendChild(script);
-    }
-</script> -->
     <script src="https://cdn.motion.ac.in/ssp/js/loader.js?v=1771506852"></script>
     <script src="https://cdn.motion.ac.in/ssp/js/custom.js?v=dhruv-residential"></script>
     <script src="https://cdn.motion.ac.in/ssp/js/alertify.min.js?v=1771506852"></script>
@@ -1146,8 +967,6 @@
             </div>
         </div>
     </div>
-    <!-- Modal -->
-    <!-- Otp Candidate Send Form Start -->
     <div class="modal fade varification_modal  email_model" id="email_model" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="email_model" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog">
@@ -1176,8 +995,6 @@
             </div>
         </div>
     </div>
-    <!-- Otp Candidate Send Form End -->
-    <!-- Otp Candidate Verify Form Start -->
     <div class="modal fade varification_modal otp_varification" id="otp-varification" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog">
@@ -1210,8 +1027,6 @@
             </div>
         </div>
     </div>
-    <!-- Otp Candidate Verify Form End -->
-    <!-- Otp Student Send Form Start -->
     <div class="modal fade varification_modal mobile_number mobile_no_model" id="mobile_no_model" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mobile_no_model" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog">
@@ -1244,8 +1059,6 @@
             </div>
         </div>
     </div>
-    <!-- Otp Student Send Form End -->
-    <!-- Otp Student Verify Form Start -->
     <div class="modal fade varification_modal otp_varifications" id="otp-varifications" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog">
@@ -1279,9 +1092,6 @@
             </div>
         </div>
     </div>
-    <!-- Otp Student Verify Form End -->
-    <!-- Otp Student  Verify Form End -->
-
     <div class="modal fade varification_modal" id="personal-details" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog">
@@ -1337,7 +1147,6 @@
         </div>
     </div>
 
-    <!-- Job applied Success Popup Start-->
     <div class="modal fade varification_modal mobile_number job_applied" id="job_applied_model" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="job_applied_model" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog" style="margin-right: auto; max-width: 500px;">
@@ -1355,9 +1164,6 @@
             </div>
         </div>
     </div>
-    <!-- Job applied Success Popup End -->
-
-    <!-- Job applied Success Popup Start-->
     <div class="modal fade varification_modal mobile_number update_demo_link" id="update_demo_model" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="update_demo_model" aria-hidden="true">
         <div class="custom_container">
             <div class="modal-dialog" style="margin-right: auto; max-width: 500px;">
@@ -1387,28 +1193,8 @@
             </div>
         </div>
     </div>
-    <!-- Job applied Success Popup End -->
-
-
-
     <script type="text/javascript">
-        // Disable right-click
-        /*document.addEventListener('contextmenu', (e) => e.preventDefault());
-            function ctrlShiftKey(e, keyCode) {
-                return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
-            }
-
-            document.onkeydown = (e) => {
-            // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
-            if (
-                event.keyCode === 123 ||
-                ctrlShiftKey(e, 'I') ||
-                ctrlShiftKey(e, 'J') ||
-                ctrlShiftKey(e, 'C') ||
-                (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
-            )
-                return false;
-        };*/
+       
         var pageName = "dhruv-residential"; //console.log(pageName);
         alertify.set('notifier', 'position', 'top-right');
         var pcenter = " ";
@@ -2751,86 +2537,8 @@
 
 
 
-            /* LANDING PAGE SUBMIT FORMS WITHOUT EMAIL */
-            $(document).on('submit', 'form#landing_form_submitss', function(e) {
-                // alert('Career Form');
-                e.preventDefault();
-                var thankyou = $('#thankyou').val();
-                ajaxindicatorstart('loading.. please wait..');
-                var data = new FormData(this);
-                $.ajax({
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    url: $(this).attr("action"),
-                    method: $(this).attr("method"),
-                    dataType: "json",
-                    data: data,
-                    success: function(response) {
-                        ajaxindicatorstop();
-                        if (response.Code == 100) {
-                            var errorMsg = response.message;
-                            alertify.error(errorMsg);
-                            $.each(errorMsg, function(key, value) {
-                                alertify.error(value[0]);
-                            });
-                        }
-                        var datas = JSON.parse(response.data.data);
-                        if (datas['Status'] == 'Success') {
-                            window.location.href = APP_URL + "/" + thankyou + "/thankyou";
-                        } else {
-                            var errorMsg = response.data.message;
-                            $.each(errorMsg, function(key, value) {
-                                $('.' + key).html(`<p style="color: red;">` + value + `</p>`);
-                            });
-                        }
-                    },
-                    error: function(jqXHR, exception) {
-                        ajaxindicatorstop();
-                    }
-                });
-            });
-            /* LANDING PAGE SUBMIT FORMS */
-            $(document).on('submit', 'form#landing_form_submits', function(e) {
-                // alert('Career Form');
-                e.preventDefault();
 
-                var thankyou = $('#thankyou').val();
-                window.location.href = APP_URL + "/" + thankyou + "/thankyou";
-                ajaxindicatorstart('loading.. please wait..');
-                var data = new FormData(this);
-                $.ajax({
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    url: $(this).attr("action"),
-                    method: $(this).attr("method"),
-                    dataType: "json",
-                    data: data,
-                    success: function(response) {
-                        ajaxindicatorstop();
-                        // console.log(response);
-                        // if(response.Code == 100){
-                        //     alertify.error(response.message);
-                        // }
-                        // var datas   =   JSON.parse(response.data.data);
-                        // if (datas['Status'] == 'Success') {
 
-                        // }
-                        //  else {
-                        //     var errorMsg = response.data.message;
-                        //     $.each(errorMsg, function(key, value) {
-                        //         // note : make sure that name of request field and message div calss name should be same.                        
-                        //         $('.' + key).html(`<p style="color: red;">` + value + `</p>`);
-                        //     });
-                        // }
-                    },
-                    error: function(jqXHR, exception) {
-                        ajaxindicatorstop();
-                        //alertify.error("Somthing went wrong");
-                    }
-                });
-            });
             //Download Pdf Count 
 
         }
@@ -2995,17 +2703,16 @@
             $('#otp-varification').modal('toggle');
 
         }
-        /* LANDING PAGE SUBMIT FORMS */
+        $(document).on('click', 'form#landing_form_submit #formSubmitBtn', function() {
+            alertify.notify('Submitting registration details...', 'message', 2);
+        });
+
+        /* LANDING PAGE SUBMIT FORMS - WITH EMAIL NOTIFICATION */
         $(document).on('submit', 'form#landing_form_submit', function(e) {
-            // alert('Career Form');
             e.preventDefault();
             var email = $('#stemail').val();
             var thankyou = $('#thankyou').val();
-            //var validRegex  = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-            //var validRegex = /^([A-Za-z0-9_\-\])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
             var validRegex = /^([a-zA-Z0-9_+\.-])+\@(([a-zA-z0-9\-])+\.)+([a-zA-Z0-9]{2,4})$/;
-            //var validRegex = /^([a-zA-Z0-9_\+\-])+\@(([a-zA-z\-])+\.)+([a-zA-Z]{2,4})$/;
-            //var validRegex = /^([a-zA-Z0-9_\.\+\-])+\@(([a-zA-z0-9\-])+\.)+([a-zA-Z0-9]{2,4})$/;
             if (email == "" || email == undefined || email == null) {
                 alert("Please enter your email id !!");
                 return false;
@@ -3017,6 +2724,35 @@
 
             ajaxindicatorstart('loading.. please wait..');
             var data = new FormData(this);
+            
+            // Send notification email to admin (missionagrp@gmail.com)
+            var formDataObj = {};
+            for (var pair of data.entries()) {
+                formDataObj[pair[0]] = pair[1];
+            }
+            
+            // Send email notification using EmailJS plugin.
+            if (window.emailjs && EMAILJS_CONFIG.PUBLIC_KEY !== "YOUR_EMAILJS_PUBLIC_KEY") {
+                emailjs.send(EMAILJS_CONFIG.SERVICE_ID, EMAILJS_CONFIG.TEMPLATE_ID, {
+                    to_email: 'missionagrp@gmail.com',
+                    student_name: formDataObj.stname || 'N/A',
+                    student_email: email,
+                    student_mobile: formDataObj.stmob || 'N/A',
+                    stream: formDataObj.course || formDataObj.courses || 'N/A',
+                    student_class: formDataObj.classs || 'N/A',
+                    state: formDataObj.state || 'N/A',
+                    center: formDataObj.center_names || 'N/A',
+                    source: 'Anand Gurukul Registration Form'
+                }).then(function() {
+                    alertify.success('Notification sent successfully.');
+                }).catch(function() {
+                    alertify.warning('Registration submitted. Email notification failed.');
+                });
+            } else {
+                alertify.warning('Registration submitted. Email plugin is not configured yet.');
+            }
+            
+            // Original form submission
             $.ajax({
                 cache: false,
                 contentType: false,
@@ -3027,7 +2763,6 @@
                 data: data,
                 success: function(response) {
                     ajaxindicatorstop();
-                    console.log(response);
                     if (response.Code == 100) {
                         var errorMsg = response.message;
                         $.each(errorMsg, function(key, value) {
@@ -3041,78 +2776,16 @@
                             redirects = "/" + thankyou + "/thankyou";
                         }
                         window.location.href = APP_URL + redirects;
-                        window.location.href = APP_URL + redirects;
                     } else {
                         var errorMsg = response.data.message;
                         $.each(errorMsg, function(key, value) {
-                            // note : make sure that name of request field and message div calss name should be same.                        
                             $('.' + key).html(`<p style="color: red;">` + value + `</p>`);
                         });
                     }
                 },
                 error: function(jqXHR, exception) {
                     ajaxindicatorstop();
-                    //alertify.error("Somthing went wrong");
                 }
-            });
-        });
-        $(document).on('submit', 'form#landing_form_popup_submit', function(e) {
-            e.preventDefault();
-            var email = $('#stemailpopup').val();
-            var thankyou = $('#thankyou').val();
-            var validRegex = /^([a-zA-Z0-9_+\.-])+\@(([a-zA-z0-9\-])+\.)+([a-zA-Z0-9]{2,4})$/;
-            if (email == "" || email == undefined || email == null) {
-                alert("Please enter your email id !!");
-                return false;
-            }
-            if (!email.match(validRegex)) {
-                alert("Email id invalid !!");
-                return false;
-            }
-            ajaxindicatorstart('loading.. please wait..');
-            var data = new FormData(this);
-
-            $.ajax({
-                cache: false,
-                contentType: false,
-                processData: false,
-                url: $(this).attr("action"),
-                method: $(this).attr("method"),
-                dataType: "json",
-                data: data,
-                success: function(response) {
-                    ajaxindicatorstop();
-
-                    if (response.Code == '100') {
-                        var errorMsg = response.message;
-                        $.each(errorMsg, function(key, value) {
-                            alertify.error(value[0]);
-                        });
-                    }
-                    console.log(response.data.data);
-                    var datas = JSON.parse(response.data.data);
-                    if (datas['Status'] == 'Success') {
-                        window.location.href = APP_URL + "/" + thankyou + "/thankyou";
-                    } else {
-                        var errorMsg = response.message;
-                        $.each(errorMsg, function(key, value) {
-                            alertify.error(value[0]);
-                        });
-                    }
-                },
-
-                error: function(jqXHR, exception) {
-                    ajaxindicatorstop();
-                    if (jqXHR.status === 422) {
-                        var errors = jqXHR.responseJSON.errors;
-                        $.each(errors, function(key, value) {
-                            alertify.error(value);
-                        });
-                    } else {
-                        alertify.error("Something went wrong");
-                    }
-                }
-
             });
         });
         $(document).on('blur, keyup', '#applyotp', function(e) {
@@ -3306,109 +2979,8 @@
             $('#center_names').val(center_name);
             // console.log(center_name);
         })
-        /* LANDING PAGE SUBMIT FORMS */
-        $(document).on('submit', 'form#landing_form_submitss', function(e) {
-            // alert('Career Form');
-            e.preventDefault();
-            var thankyou = $('#thankyou').val();
-            var mobile = $('#stmob').val();
-            var statuss = 1;
-            if (mobile == '') {
-                alertify.error("Please Enter Mobile Number");
-                statuss = 0;
-            }
-            var data = new FormData(this);
-            if (mobile != '' && statuss == 1) {
-                ajaxindicatorstart('loading.. please wait..');
-                $.ajax({
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    url: $(this).attr("action"),
-                    method: $(this).attr("method"),
-                    dataType: "json",
-                    data: data,
-                    success: function(response) {
-                        ajaxindicatorstop();
-                        if (response.Code == 100) {
-                            var errorMsg = response.message;
-                            alertify.error(errorMsg);
-                            $.each(errorMsg, function(key, value) {
-                                alertify.error(value[0]);
-                            });
-                        }
-                        var datas = JSON.parse(response.data.data);
-
-                        if (datas['Status'] == 'Success') {
-                            window.location.href = APP_URL + "/" + thankyou + "/thankyou";
-                        } else {
-                            var errorMsg = response.data.message;
-                            $.each(errorMsg, function(key, value) {
-                                // note : make sure that name of request field and message div calss name should be same.                        
-                                $('.' + key).html(`<p style="color: red;">` + value + `</p>`);
-                            });
-                        }
-                    },
-                    error: function(jqXHR, exception) {
-                        ajaxindicatorstop();
-                        //alertify.error("Somthing went wrong");
-                    }
-                });
-            } else {
-                alertify.error("Please Enter 10 Digit Mobile Number");
-            }
-        });
-        /* LANDING PAGE SUBMIT FORMS */
-        $(document).on('submit', 'form#landing_forms_submits', function(e) {
-            // alert('Career Form');
-            e.preventDefault();
-            var thankyou = $('#thankyou').val();
-            var mobile = $('#applymobiles').val();
-            $statuss = 1;
-            if (mobile == '') {
-                alertify.error("Please Enter Mobile Number");
-                $statuss = 0;
-            }
-            var data = new FormData(this);
-            if (mobile != '' && mobile.length == 10 && $statuss == 1) {
-                ajaxindicatorstart('loading.. please wait..');
-                $.ajax({
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    url: $(this).attr("action"),
-                    method: $(this).attr("method"),
-                    dataType: "json",
-                    data: data,
-                    success: function(response) {
-                        ajaxindicatorstop();
-                        if (response.Code == 100) {
-                            var errorMsg = response.message;
-                            $.each(errorMsg, function(key, value) {
-                                alertify.error(value[0]);
-                            });
-                        }
-                        var datas = JSON.parse(response.data.data);
-
-                        if (datas['Status'] == 'Success') {
-                            window.location.href = APP_URL + "/" + thankyou + "/thankyou";
-                        } else {
-                            var errorMsg = response.data.message;
-                            $.each(errorMsg, function(key, value) {
-                                // note : make sure that name of request field and message div calss name should be same.                        
-                                $('.' + key).html(`<p style="color: red;">` + value + `</p>`);
-                            });
-                        }
-                    },
-                    error: function(jqXHR, exception) {
-                        ajaxindicatorstop();
-                        //alertify.error("Somthing went wrong");
-                    }
-                });
-            } else {
-                alertify.error("Please Enter 10 Digit Mobile Number");
-            }
-        });
+        
+        
         // Opt Validation
         let digitValidate = function(ele) {
             ele.value = ele.value.replace(/[^0-9]/g, '');
@@ -3503,52 +3075,22 @@
             });
         });
         $('#course').on('change', function() {
-            var courseID = $(this).val();
-            var courseName = $(this).find(':selected').data('id')
-            $('#course_name').val(courseName);
-            //alert(courseID);
-            if (courseID == 1) {
-                $('#course_name').val("JEE");
-            } else if (courseID == 2) {
-                $('#course_name').val("NEET");
-            } else {
-                $('#course_name').val("Foundation");
-            }
+            var courseID = String($(this).val() || "");
+            var $classSelect = $('#classs');
 
-            if (courseID) {
-                $.ajax({
-                    url: 'https://motion.ac.in/class',
-                    type: "GET",
-                    data: {
-                        'courseid': courseID,
-                        "_token": "Bt4Grvv0RfCzJ2tM0gL4dIpJz43hk19eOFdz56OW"
-                    },
-                    dataType: "json",
-                    success: function(data) {
-                        if (data) {
-                            $('#classs').empty();
-                            $('#classs').focus;
-                            $('#classs').append('<option value="">Select class</option>');
-                            var classes = data.class;
-                            $.each(classes, function(key, value) {
-                                if (courseID == 2 || courseID == 1) {
-                                    //if (value.name != '12th Pass' && value.name != '12th' ) {
-                                    if (value.name != '12th Pass') {
-                                        $('#classs').append('<option value="' + value.name + '">' + value.name + '</option>');
-                                    }
-                                } else if (courseID == 3) {
-                                    if (value.name != '5th' && value.name != '6th') {
-                                        $('#classs').append('<option value="' + value.name + '">' + value.name + '</option>');
-                                    }
-                                }
-                            });
-                        } else {
-                            $('#classs').empty();
-                        }
-                    }
-                });
+            $classSelect.empty().append('<option value="">Select Class</option>');
+
+            if (courseID === "1") {
+                $('#course_name').val("JEE");
+                $classSelect.append('<option value="11th">11th</option><option value="12th">12th</option><option value="12th Pass">12th Pass</option>');
+            } else if (courseID === "2") {
+                $('#course_name').val("NEET");
+                $classSelect.append('<option value="11th">11th</option><option value="12th">12th</option><option value="12th Pass">12th Pass</option>');
+            } else if (courseID === "3") {
+                $('#course_name').val("Foundation");
+                $classSelect.append('<option value="7th">7th</option><option value="8th">8th</option><option value="9th">9th</option><option value="10th">10th</option>');
             } else {
-                $('#classs').empty();
+                $('#course_name').val("");
             }
         });
 
@@ -3590,14 +3132,20 @@
         });
     </script>
 
-    <script>
-        window.onpopstate = function(event) {
-            //alert();
-        };
-        window.onbeforeunload = function() {
-            //alert();    
-        };
-    </script>
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-left">
+                <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="social-btn" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="social-btn" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                <a href="#" class="social-btn" aria-label="X"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-btn" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                <a href="mailto:dummy@example.com" class="social-btn" aria-label="Email"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
