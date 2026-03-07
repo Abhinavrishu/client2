@@ -591,12 +591,22 @@ nav .navbar .links li:hover .nav-sub-menu6 {
   padding: 0;
 }
 
+.links li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* link styling */
 .links li a {
   text-decoration: none;
   color: #000;
   font-weight: 500;
   transition: 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .links li a:hover {
@@ -605,6 +615,11 @@ nav .navbar .links li:hover .nav-sub-menu6 {
 
 /* Hide sidebar logo by default */
 .sidebar-logo {
+  display: none;
+}
+
+/* Hide mobile-only links on desktop */
+.links li.mobile-only {
   display: none;
 }
 
@@ -625,58 +640,181 @@ nav .navbar .links li:hover .nav-sub-menu6 {
         justify-content: center;
     }
 
+    /* Hide dropdown on mobile, show direct links instead */
+    .links li.dropdown {
+        display: none !important;
+    }
+
+    .links li.mobile-only {
+        display: block;
+    }
+
     .nav-links {
         position: fixed;
         top: 0;
         right: -100%;
-        width: min(86vw, 320px);
+        width: min(88vw, 340px);
         height: 100vh;
-        background: #ffffff;
-        box-shadow: -8px 0 30px rgba(0, 0, 0, 0.15);
-        z-index: 1400;
-        transition: right 0.25s ease;
+        background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+        box-shadow: -12px 0 40px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+        transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
         overflow-y: auto;
         display: block;
+    }
+
+    /* Premium scrollbar styling for sidebar */
+    .nav-links::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .nav-links::-webkit-scrollbar-track {
+        background: #f3f4f6;
+    }
+
+    .nav-links::-webkit-scrollbar-thumb {
+        background: #d1d5db;
+        border-radius: 10px;
+    }
+
+    .nav-links::-webkit-scrollbar-thumb:hover {
+        background: #9ca3af;
     }
 
     .nav-links.open {
         right: 0;
     }
 
+    /* Premium backdrop overlay */
+    body.menu-open::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(2px);
+        z-index: 9998;
+        animation: fadeIn 0.35s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
     .sidebar-logo {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 14px 16px;
-        border-bottom: 1px solid #ececec;
-        background: #fff8ea;
+        padding: 20px 18px;
+        border-bottom: 2px solid #e5e7eb;
+        background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 
     .sidebar-logo .logo-name img {
-        width: 54px;
-        height: auto;
+        width: auto;
+        height: 40px;
+        transition: transform 0.3s ease;
+    }
+
+    .sidebar-logo .logo-name img:hover {
+        transform: scale(1.05);
     }
 
     .sidebar-logo .bx-x {
-        font-size: 28px;
+        font-size: 32px;
         cursor: pointer;
+        color: #374151;
+        transition: all 0.2s ease;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        background: transparent;
+    }
+
+    .sidebar-logo .bx-x:hover {
+        background: #fee2e2;
+        color: #dc2626;
+        transform: rotate(90deg);
     }
 
     .links {
         display: flex;
         flex-direction: column;
         gap: 0;
-        padding: 8px 0;
+        padding: 12px 0;
     }
 
     .links li {
-        border-bottom: 1px solid #f1f1f1;
+        border-bottom: 1px solid #f3f4f6;
         padding: 0;
+        transition: background 0.2s ease;
+        opacity: 1;
+    }
+
+    /* Staggered animation for menu items */
+    .nav-links.open .links li {
+        animation: slideInLeft 0.4s ease forwards;
+    }
+
+    .nav-links.open .links li:nth-child(1) { animation-delay: 0.05s; }
+    .nav-links.open .links li:nth-child(2) { animation-delay: 0.1s; }
+    .nav-links.open .links li:nth-child(3) { animation-delay: 0.15s; }
+    .nav-links.open .links li:nth-child(4) { animation-delay: 0.2s; }
+    .nav-links.open .links li:nth-child(5) { animation-delay: 0.25s; }
+    .nav-links.open .links li:nth-child(6) { animation-delay: 0.3s; }
+
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .links li:hover {
+        background: #f9fafb;
     }
 
     .links li a {
         display: block;
-        padding: 12px 16px;
+        padding: 14px 18px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #1f2937;
+        transition: all 0.2s ease;
+        position: relative;
+    }
+
+    .links li a::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 70%;
+        background: #eb0000;
+        border-radius: 0 4px 4px 0;
+        transition: width 0.3s ease;
+    }
+
+    .links li a:hover::before {
+        width: 4px;
+    }
+
+    .links li a:hover {
+        color: #eb0000;
+        padding-left: 24px;
     }
 
     .links li.dropdown .dropdown-menu {
@@ -684,13 +822,104 @@ nav .navbar .links li:hover .nav-sub-menu6 {
         display: block;
         border: 0;
         box-shadow: none;
-        padding: 0 0 8px;
-        margin-top: -6px;
+        padding: 0;
+        margin: 0;
+        background: #f9fafb;
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.4s ease;
+    }
+
+    .links li.dropdown.active .dropdown-menu {
+        max-height: 300px;
+        opacity: 1;
+        padding: 8px 0 10px;
+        pointer-events: auto;
+    }
+
+    /* Dropdown arrow styling in mobile */
+    .links li.dropdown .dropdown-arrow {
+        margin-left: auto;
+        transform: rotate(0deg);
+        opacity: 0.6;
+        transition: transform 0.3s ease;
+    }
+
+    .links li.dropdown.active .dropdown-arrow {
+        transform: rotate(180deg);
+    }
+
+    .links li.dropdown > a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .links li.dropdown > a:hover::before {
+        width: 0 !important;
+    }
+
+    .links li.dropdown > a:hover {
+        padding-left: 18px !important;
+        color: #1f2937 !important;
+    }
+
+    .links li.dropdown > a:active {
+        background: #f3f4f6;
     }
 
     .links li.dropdown .dropdown-menu a {
-        padding: 8px 26px;
-        font-size: 13px;
+        padding: 10px 18px 10px 32px;
+        font-size: 14px;
+        color: #4b5563;
+        font-weight: 400;
+        position: relative;
+    }
+
+    .links li.dropdown .dropdown-menu a::after {
+        content: '•';
+        position: absolute;
+        left: 18px;
+        color: #9ca3af;
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .links li.dropdown .dropdown-menu a::before {
+        display: none;
+    }
+
+    .links li.dropdown .dropdown-menu a:hover {
+        background: #f3f4f6;
+        padding-left: 38px;
+        color: #eb0000;
+    }
+
+    /* Premium button styles in sidebar */
+    .links li a.download-btn,
+    .links li a.chat-btn {
+        margin: 8px 12px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: 600;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+    }
+
+    .links li a.download-btn::before,
+    .links li a.chat-btn::before {
+        display: none;
+    }
+
+    .links li a.download-btn:hover,
+    .links li a.chat-btn:hover {
+        padding-left: 18px;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
     }
 
     body.menu-open {
