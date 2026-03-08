@@ -287,6 +287,11 @@
                 right: 0;
             }
         }
+
+        .list-inline-item.no-before::before {
+            display: none !important;
+            content: none !important;
+        }
     </style>
     <script type="text/javascript">
 
@@ -320,16 +325,17 @@
     </style>
     <nav class="container mynavbar">
         <div class="navbar">
-            <div class="logo">
+            <a href="./"><div class="logo">
                 <img src="./assets/photos/logo.png" alt="Anand Gurukul Residential Campus">
 
             </div>
+            </a>
             <button class="mobile-menu-btn" type="button" aria-label="Open navigation" aria-expanded="false">
                 <img src="./assets/photos/hamburger-menu.svg" alt="Menu">
             </button>
             <div class="nav-links">
-                <div class="sidebar-logo"><span class="logo-name"><img src="./assets/photos/logo.png"
-                            alt="Anand Gurukul Residential Campus"></span><i class='bx bx-x'></i></div>
+                <a href="./"><div class="sidebar-logo"><span class="logo-name"><img src="./assets/photos/logo.png"
+                            alt="Anand Gurukul Residential Campus"></span><i class='bx bx-x'></i></div></a>
                 <ul class="links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
@@ -849,9 +855,9 @@
                         <div class="row">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.185470600376!2d80.2951327!3d26.481972499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c39f813067c97%3A0x8cdeeb712070179b!2sAnand%20Gurukul%20-%20Kanpur!5e0!3m2!1sen!2sin!4v1772856696640!5m2!1sen!2sin"
-                                width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                width="1600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div class="motion_about_us_footer_text">
                                     <p>Useful Links</p>
                                     <ul type="none" class="font-style font-styles">
@@ -860,7 +866,21 @@
                                         <li><a href="./gallery" class="ppclick" data-name="Gallery">Gallery</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
+                            <div >
+                            <ul class="list-inline terms"> 
+                                <li class="list-inline-item no-before" ><a style="font-size: 25px;" data-name="Useful Links">Useful Links</a></li>
+                                <li class="list-inline-item"><a href="./gallery" class="ppclick"
+                                        data-name="Gallery">Gallery</a></li>
+                                <li class="list-inline-item"><a href="./about-us" class="ppclick"
+                                        data-name="About Us">About Us</a></li>
+                                <li class="list-inline-item"><a href="./privacy-policy" class="ppclick"
+                                        data-name="Privacy Policy">Privacy Policy</a></li>
+                                <li class="list-inline-item"><a href="./terms-and-conditions" class="ppclick"
+                                        data-name="Terms &amp; Conditions">Terms &amp;
+                                        Conditions</a></li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12 order-md-last order-sm-first order-first">
@@ -912,7 +932,7 @@
                         <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 copy">
                             <p class="footer-copy">© 2026 All right reserved by <span class="footer_pvt">Anand Gurukul</span></p>
                         </div>
-                        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 copy">
+                        <!-- <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 copy">
                             <ul class="list-inline terms">
                                 <li class="list-inline-item"><a href="./about-us" class="ppclick"
                                         data-name="About Us">About Us</a></li>
@@ -922,7 +942,7 @@
                                         data-name="Terms &amp; Conditions">Terms &amp;
                                         Conditions</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
