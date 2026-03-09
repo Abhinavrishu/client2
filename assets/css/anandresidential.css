@@ -116,7 +116,7 @@
 }
 
 /* Keep Important Notes aligned with the fee table height on desktop */
-.section_7 .row {
+/* .section_7 .row {
     align-items: stretch;
 }
 
@@ -159,7 +159,7 @@
         overflow: visible;
         margin-top: 12px;
     }
-}
+} */
 
 .impo_not {
     font-family: Lato;
@@ -502,7 +502,7 @@ label {
     padding: 14px;
     border-radius: 8px;
     margin-bottom: 2rem;
-    min-height: 150px;
+    min-height: 90px;
 }
 
 .feature_1 p {
