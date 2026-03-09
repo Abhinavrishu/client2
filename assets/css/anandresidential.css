@@ -115,6 +115,52 @@
     padding: 10px;
 }
 
+/* Keep Important Notes aligned with the fee table height on desktop */
+.section_7 .row {
+    align-items: stretch;
+}
+
+.section_7 .col-lg-6.col-md-6 {
+    display: flex;
+}
+
+.section_7 .col-lg-6.col-md-6 .table-responsive,
+.section_7 .col-lg-6.col-md-6 .import_det {
+    width: 100%;
+}
+
+.section_7 .table {
+    margin-bottom: 0;
+}
+
+.section_7 .import_det {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.section_7 .import_det p {
+    margin-bottom: 8px;
+    line-height: 1.45;
+    font-size: 15px;
+    color: #323232;
+}
+
+.section_7 .import_det p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .section_7 .col-lg-6.col-md-6 {
+        display: block;
+    }
+
+    .section_7 .import_det {
+        height: auto;
+        overflow: visible;
+        margin-top: 12px;
+    }
+}
+
 .impo_not {
     font-family: Lato;
     font-weight: 500;
